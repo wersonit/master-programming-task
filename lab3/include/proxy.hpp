@@ -4,8 +4,8 @@
  * @author Anonymous
  */
 
-#ifndef __PROXY_HPP__
-#define __PROXY_HPP__
+#ifndef PROXY_HPP
+#define PROXY_HPP
 
 #include <mutex>
 
@@ -15,26 +15,27 @@ class ptr_holder
 public:
     ptr_holder(T* ptr): ptr_(ptr) {}
 
-    //{ describe proxy object
-    class proxy: private ???
+    class proxy: private std::lock_guard<MutexInjection>
     {
     public:
-        proxy(???): ???
+        proxy(T* ptr, MutexInjection& mx): std::lock_guard<MutexInjection>(mx), _ptr(ptr)
         {}
+        T* operator -> () const {
+            return this->_ptr;
+        }
 
     private:
-        ???
+        T* const _ptr;
     };
 
-    ??? operator -> () const
+    proxy operator -> () const
     {
-        return ???;
+        return proxy(ptr_, mutex_);
     }
-    //}
 
 private:
     T* ptr_;
     mutable MutexInjection mutex_;
 };
 
-#endif // __PROXY_HPP__
+#endif // PROXY_HPP
