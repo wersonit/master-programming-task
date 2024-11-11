@@ -1,0 +1,1 @@
+/usr/bin/ar qc libboost_json.a CMakeFiles/boost_json.dir/src/src.cpp.o
