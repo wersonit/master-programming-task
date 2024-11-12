@@ -2181,6 +2181,15 @@ lab3_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 lab3_SOURCE_DIR:STATIC=/home/user/Desktop/cpp_labs/master-programming-task/lab4
 
+//Value Computed by CMake
+lab4_BINARY_DIR:STATIC=/home/user/Desktop/cpp_labs/master-programming-task/lab4
+
+//Value Computed by CMake
+lab4_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+lab4_SOURCE_DIR:STATIC=/home/user/Desktop/cpp_labs/master-programming-task/lab4
+
 //The directory containing a CMake configuration file for zstd.
 zstd_DIR:PATH=zstd_DIR-NOTFOUND
 

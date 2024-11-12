@@ -16,8 +16,11 @@ find_package(Boost CONFIG)
 include_directories(${Boost_INCLUDE_DIRS})
 
 add_library(iterator INTERFACE)
+add_library(iter INTERFACE)
+add_library(Boost::iterator ALIAS iter)
 target_include_directories(iterator INTERFACE include)
-target_link_libraries(iterator INTERFACE Boost::boost)
+target_link_libraries(iterator INTERFACE iter)
+#target_link_libraries(iter INTERFACE include)
 
 file(GLOB TESTS tests/*.cpp)
 add_executable(tests_iterator ${TESTS})
