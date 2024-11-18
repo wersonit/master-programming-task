@@ -1,24 +1,12 @@
-О задании
-=========
+About
+=====
 
-Предоставление примера использования концепции ``variant``.
+This subproject shows an application of ``variant`` concept.
 
-Требования
-==========
+Requirements
+============
 
-Все рекурсивные случаи должны зависеть только от себя самих.
-Не нужно смешивать использование других реализаций.
+Do not mix up different implementations.
+All recursive cases should depend only on themselves.
 
-Необходимо прохождение всех тестов.
-
-Подсказки
-=========
-
-#. Изучите ``std::variant`` и ``std::get(std::variant)``.
-#. Активно используйте ``using``, чтобы вытянуть конструкторы базового класса, например, ``using vector::vector;``.
-#. Можно использовать ``std::shared_ptr`` или ``boost::recursive_wrapper``, чтобы описать рекурсивный тип.
-#. ``constexpr`` - лучший друг.
-#. ``std::disjunction_v`` - это как оператор ``||``.
-#. Метод ``as`` работает аналогично ``std::get``.
-#. `Переиспользование кода <https://stackoverflow.com/questions/123758/how-do-i-remove-code-duplication-between-similar-const-and-non-const-member-func>`_.
-#. Используйте ``variant_decorator`` для реализации ``recursive_map``.
+Pass all tests.

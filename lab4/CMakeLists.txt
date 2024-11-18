@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(lab3)
+project(lab4)
 
 Include(FetchContent)
 
