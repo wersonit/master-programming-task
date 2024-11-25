@@ -4,11 +4,13 @@
  * @author Anonymous
  */
 
-#include <catch2/catch.hpp>
+#include <catch2/catch_all.hpp>
 
 #include <string>
 
 #include <variant.hpp>
+
+using namespace Catch;
 
 TEST_CASE("variant::number")
 {
