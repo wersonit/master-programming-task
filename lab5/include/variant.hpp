@@ -52,6 +52,7 @@ struct variant_decorator : public std::variant<Types...>
     RetType& as()
     {
         
+        // If type of recursive_wrapper of RetType is equal to at least one of Types, return True
         if constexpr (std::disjunction_v<std::is_same<boost::recursive_wrapper<RetType>, Types>...>)
         {
             return std::get<boost::recursive_wrapper<RetType>>(*this).get();
@@ -63,6 +64,7 @@ struct variant_decorator : public std::variant<Types...>
     }
 
     
+    // overload for const
     template<typename RetType>
     RetType as() const
     {
