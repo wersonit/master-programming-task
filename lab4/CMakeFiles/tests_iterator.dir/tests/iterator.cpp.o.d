@@ -1,14 +1,7 @@
 CMakeFiles/tests_iterator.dir/tests/iterator.cpp.o: \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/tests/iterator.cpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/catch_all.hpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_benchmark_all.hpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_benchmark.hpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/string_view \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/optional \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/cstddef \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/algorithm \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_algobase.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/x86_64-suse-linux/bits/c++config.h \
   /usr/include/bits/wordsize.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/x86_64-suse-linux/bits/os_defines.h \
@@ -18,98 +11,53 @@ CMakeFiles/tests_iterator.dir/tests/iterator.cpp.o: \
   /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/x86_64-suse-linux/bits/cpu_defines.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/pstl/pstl_config.h \
-  /usr/lib64/clang/19/include/stddef.h \
-  /usr/lib64/clang/19/include/__stddef_header_macro.h \
-  /usr/lib64/clang/19/include/__stddef_ptrdiff_t.h \
-  /usr/lib64/clang/19/include/__stddef_size_t.h \
-  /usr/lib64/clang/19/include/__stddef_wchar_t.h \
-  /usr/lib64/clang/19/include/__stddef_null.h \
-  /usr/lib64/clang/19/include/__stddef_nullptr_t.h \
-  /usr/lib64/clang/19/include/__stddef_max_align_t.h \
-  /usr/lib64/clang/19/include/__stddef_offsetof.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/version.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/variant \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_context.hpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/type_traits \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_failure_exception.hpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_name.hpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_counter.hpp \
-  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_capture.hpp \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/string \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/requires_hosted.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stringfwd.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/memoryfwd.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/char_traits.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/postypes.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/cwchar \
-  /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
-  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
-  /usr/lib64/clang/19/include/stdarg.h \
-  /usr/lib64/clang/19/include/__stdarg___gnuc_va_list.h \
-  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
-  /usr/include/bits/types/mbstate_t.h \
-  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/allocator.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/x86_64-suse-linux/bits/c++allocator.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/new_allocator.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/new \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/exception.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/functexcept.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/exception_defines.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/move.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/cpp_type_traits.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/localefwd.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/x86_64-suse-linux/bits/c++locale.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/clocale \
-  /usr/include/locale.h /usr/include/bits/locale.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/iosfwd \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/cctype \
-  /usr/include/ctype.h /usr/include/bits/types.h \
-  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
-  /usr/include/bits/endian.h /usr/include/bits/endianness.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/ostream_insert.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/cxxabi_forced.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/ext/type_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/ext/numeric_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_pair.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/type_traits \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/version.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/move.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/utility.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_iterator_base_types.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_iterator_base_funcs.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/concept_check.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/debug/assertions.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_iterator_base_types.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_iterator.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/ext/type_traits.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/ptr_traits.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_function.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/backward/binders.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/ext/numeric_traits.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_algobase.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_pair.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/utility.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/debug/debug.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/predefined_ops.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bit \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/concepts \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/refwrap.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/invoke.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/range_access.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_algo.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/algorithmfwd.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/initializer_list \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/basic_string.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/ext/alloc_traits.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/alloc_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_heap.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/uniform_int_dist.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_tempbuf.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/new \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/exception.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_construct.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/functional_hash.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/hash_bytes.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/string_view.tcc \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/ext/string_conversions.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/cstdlib \
-  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
-  /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/stdint-intn.h /usr/include/endian.h \
-  /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
-  /usr/include/sys/select.h /usr/include/bits/select.h \
-  /usr/include/bits/types/sigset_t.h \
+  /usr/include/stdlib.h /usr/include/bits/libc-header-start.h \
+  /usr/lib64/clang/19/include/stddef.h \
+  /usr/lib64/clang/19/include/__stddef_size_t.h \
+  /usr/lib64/clang/19/include/__stddef_wchar_t.h \
+  /usr/lib64/clang/19/include/__stddef_null.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h /usr/include/sys/types.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
   /usr/include/bits/types/__sigset_t.h \
   /usr/include/bits/types/struct_timeval.h \
   /usr/include/bits/types/struct_timespec.h \
@@ -120,6 +68,78 @@ CMakeFiles/tests_iterator.dir/tests/iterator.cpp.o: \
   /usr/include/bits/struct_mutex.h /usr/include/bits/struct_rwlock.h \
   /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/std_abs.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/pstl/glue_algorithm_defs.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/pstl/execution_defs.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/numeric \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_numeric.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_function.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/backward/binders.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/pstl/glue_numeric_defs.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/vector \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/requires_hosted.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/allocator.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/x86_64-suse-linux/bits/c++allocator.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/new_allocator.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/memoryfwd.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_uninitialized.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/ext/alloc_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/alloc_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_vector.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_bvector.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/functional_hash.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/hash_bytes.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/refwrap.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/invoke.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/range_access.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/vector.tcc \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/memory_resource.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/cstddef \
+  /usr/lib64/clang/19/include/__stddef_header_macro.h \
+  /usr/lib64/clang/19/include/__stddef_ptrdiff_t.h \
+  /usr/lib64/clang/19/include/__stddef_nullptr_t.h \
+  /usr/lib64/clang/19/include/__stddef_max_align_t.h \
+  /usr/lib64/clang/19/include/__stddef_offsetof.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/uses_allocator.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/uses_allocator_args.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/tuple \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/catch_all.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_benchmark_all.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_benchmark.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/string_view \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/optional \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/variant \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_context.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_failure_exception.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_name.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_counter.hpp \
+  /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_capture.hpp \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/string \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stringfwd.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/char_traits.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/postypes.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/cwchar \
+  /usr/include/wchar.h /usr/lib64/clang/19/include/stdarg.h \
+  /usr/lib64/clang/19/include/__stdarg___gnuc_va_list.h \
+  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/localefwd.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/x86_64-suse-linux/bits/c++locale.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/clocale \
+  /usr/include/locale.h /usr/include/bits/locale.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/iosfwd \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/cctype \
+  /usr/include/ctype.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/ostream_insert.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/cxxabi_forced.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/basic_string.h \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/string_view.tcc \
+  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/ext/string_conversions.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/cstdio \
   /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
   /usr/include/bits/types/__fpos64_t.h \
@@ -133,10 +153,6 @@ CMakeFiles/tests_iterator.dir/tests/iterator.cpp.o: \
   /usr/include/bits/types/error_t.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/charconv.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/basic_string.tcc \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/memory_resource.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/uses_allocator.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/uses_allocator_args.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/tuple \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/chrono \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/chrono.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/ratio \
@@ -159,11 +175,6 @@ CMakeFiles/tests_iterator.dir/tests/iterator.cpp.o: \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats_fwd.hpp \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_config.hpp \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/vector \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_uninitialized.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_vector.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_bvector.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/vector.tcc \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats.hpp \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_estimate.hpp \
@@ -182,14 +193,6 @@ CMakeFiles/tests_iterator.dir/tests/iterator.cpp.o: \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_timing.hpp \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_estimate_clock.hpp \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_stats.hpp \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/algorithm \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_algo.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/algorithmfwd.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_heap.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/uniform_int_dist.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_tempbuf.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/pstl/glue_algorithm_defs.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/pstl/execution_defs.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/cmath \
   /usr/include/math.h /usr/include/bits/math-vector.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -344,9 +347,6 @@ CMakeFiles/tests_iterator.dir/tests/iterator.cpp.o: \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/random.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/x86_64-suse-linux/bits/opt_random.h \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/random.tcc \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/numeric \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stl_numeric.h \
-  /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/pstl/glue_numeric_defs.h \
   /home/user/Desktop/cpp_labs/master-programming-task/lab4/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators_range.hpp \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/iterator \
   /usr/bin/../lib64/gcc/x86_64-suse-linux/14/../../../../include/c++/14/bits/stream_iterator.h \

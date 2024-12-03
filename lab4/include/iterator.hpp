@@ -73,40 +73,40 @@ private:
     size_t m_st;
 };
 
-template<class Container = std::vector<uint8_t>>
-class image
-{
-public:
-    image(size_t width, size_t height, size_t stride):
-    data(stride * height),
-    m_width(width),
-    m_stride(stride)
-    {}
-
-    auto begin()
-    {
-        return image_iterator(data.begin(), m_width, m_stride);
-    }
-
-    auto end()
-    {
-        return image_iterator(data.end(), m_width, m_stride);
-    }
-
-    auto begin() const
-    {
-        return image_iterator(data.begin(), m_width, m_stride);
-    }
-
-    auto end() const
-    {
-        return image_iterator(data.end(), m_width, m_stride);
-    }
-
-private:
-    Container data; // image data including strides. Access by (x, y): data[y * m_stride + x]
-    size_t m_width;
-    size_t m_stride;
-};
+// template<class Container = std::vector<uint8_t>>
+// class image
+// {
+// public:
+//     image(size_t width, size_t height, size_t stride):
+//     data(stride * height),
+//     m_width(width),
+//     m_stride(stride)
+//     {}
+//
+//     auto begin()
+//     {
+//         return image_iterator(data.begin(), m_width, m_stride);
+//     }
+//
+//     auto end()
+//     {
+//         return image_iterator(data.end(), m_width, m_stride);
+//     }
+//
+//     auto begin() const
+//     {
+//         return image_iterator(data.begin(), m_width, m_stride);
+//     }
+//
+//     auto end() const
+//     {
+//         return image_iterator(data.end(), m_width, m_stride);
+//     }
+//
+// private:
+//     Container data; // image data including strides. Access by (x, y): data[y * m_stride + x]
+//     size_t m_width;
+//     size_t m_stride;
+// };
 
 #endif // __ITERATOR_HPP__
