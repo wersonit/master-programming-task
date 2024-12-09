@@ -185,14 +185,14 @@ TEST_CASE("iterator::reject_advance_workaround")
         }
         // For unknown reasons, Sharonov forgot decrement and increment
         // You can't build executable file without these functions due to linking errors
-        // void decrement()
-        // {
-        //     --i;
-        // }
-        // void increment()
-        // {
-        //     ++i;
-        // }
+        void decrement()
+        {
+            --i;
+        }
+        void increment()
+        {
+            ++i;
+        }
 
         typename iterator_facade::difference_type distance_to(const custom_iterator& x) const
         {
