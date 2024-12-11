@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/.. -I/home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-build/generated-includes
 
-CXX_FLAGS = -ffile-prefix-map=/home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/=
+CXX_FLAGS = -std=gnu++20 -ffile-prefix-map=/home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/=
 

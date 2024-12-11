@@ -38,14 +38,22 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
- /usr/include/bits/types/__locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/c++/14/compare \
+ /usr/include/c++/14/concepts /usr/include/c++/14/bits/stl_construct.h \
+ /usr/include/c++/14/new /usr/include/c++/14/bits/exception.h \
+ /usr/include/c++/14/bits/move.h \
+ /usr/include/c++/14/bits/stl_iterator_base_types.h \
+ /usr/include/c++/14/bits/iterator_concepts.h \
+ /usr/include/c++/14/bits/ptr_traits.h \
+ /usr/include/c++/14/bits/ranges_cmp.h \
+ /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/14/bits/concept_check.h \
+ /usr/include/c++/14/debug/assertions.h \
  /usr/include/c++/14/bits/allocator.h \
  /usr/include/c++/14/x86_64-suse-linux/bits/c++allocator.h \
- /usr/include/c++/14/bits/new_allocator.h /usr/include/c++/14/new \
- /usr/include/c++/14/bits/exception.h \
+ /usr/include/c++/14/bits/new_allocator.h \
  /usr/include/c++/14/bits/functexcept.h \
  /usr/include/c++/14/bits/exception_defines.h \
- /usr/include/c++/14/bits/move.h \
  /usr/include/c++/14/bits/cpp_type_traits.h \
  /usr/include/c++/14/bits/localefwd.h \
  /usr/include/c++/14/x86_64-suse-linux/bits/c++locale.h \
@@ -56,13 +64,8 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/include/bits/time64.h /usr/include/bits/endian.h \
  /usr/include/bits/endianness.h /usr/include/c++/14/bits/ostream_insert.h \
  /usr/include/c++/14/bits/cxxabi_forced.h \
- /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/14/bits/concept_check.h \
- /usr/include/c++/14/debug/assertions.h \
- /usr/include/c++/14/bits/stl_iterator_base_types.h \
  /usr/include/c++/14/bits/stl_iterator.h \
  /usr/include/c++/14/ext/type_traits.h \
- /usr/include/c++/14/bits/ptr_traits.h \
  /usr/include/c++/14/bits/stl_function.h \
  /usr/include/c++/14/backward/binders.h \
  /usr/include/c++/14/ext/numeric_traits.h \
@@ -70,16 +73,16 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/include/c++/14/bits/stl_pair.h /usr/include/c++/14/bits/utility.h \
  /usr/include/c++/14/debug/debug.h \
  /usr/include/c++/14/bits/predefined_ops.h /usr/include/c++/14/bit \
- /usr/include/c++/14/concepts /usr/include/c++/14/bits/refwrap.h \
- /usr/include/c++/14/bits/invoke.h \
+ /usr/include/c++/14/bits/refwrap.h /usr/include/c++/14/bits/invoke.h \
  /usr/include/c++/14/bits/range_access.h \
  /usr/include/c++/14/initializer_list \
  /usr/include/c++/14/bits/basic_string.h \
  /usr/include/c++/14/ext/alloc_traits.h \
- /usr/include/c++/14/bits/alloc_traits.h \
- /usr/include/c++/14/bits/stl_construct.h /usr/include/c++/14/string_view \
+ /usr/include/c++/14/bits/alloc_traits.h /usr/include/c++/14/string_view \
  /usr/include/c++/14/bits/functional_hash.h \
  /usr/include/c++/14/bits/hash_bytes.h \
+ /usr/include/c++/14/bits/ranges_base.h \
+ /usr/include/c++/14/bits/max_size_type.h /usr/include/c++/14/numbers \
  /usr/include/c++/14/bits/string_view.tcc \
  /usr/include/c++/14/ext/string_conversions.h /usr/include/c++/14/cstdlib \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
@@ -110,92 +113,20 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/include/c++/14/bits/memory_resource.h \
  /usr/include/c++/14/bits/uses_allocator.h \
  /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
- /usr/include/c++/14/chrono /usr/include/c++/14/bits/chrono.h \
- /usr/include/c++/14/ratio /usr/include/c++/14/cstdint \
+ /usr/include/c++/14/bits/ranges_util.h /usr/include/c++/14/chrono \
+ /usr/include/c++/14/bits/chrono.h /usr/include/c++/14/ratio \
+ /usr/include/c++/14/cstdint \
  /usr/lib64/gcc/x86_64-suse-linux/14/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/c++/14/limits \
  /usr/include/c++/14/ctime /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/timex.h /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /usr/include/c++/14/bits/parse_numbers.h \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
- /usr/include/c++/14/cassert /usr/include/assert.h \
- /usr/include/c++/14/cstring /usr/include/string.h /usr/include/strings.h \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_result_type.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats_fwd.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_config.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
- /usr/include/c++/14/vector /usr/include/c++/14/bits/stl_uninitialized.h \
- /usr/include/c++/14/bits/stl_vector.h \
- /usr/include/c++/14/bits/stl_bvector.h \
- /usr/include/c++/14/bits/vector.tcc \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_estimate.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_outlier_classification.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_clock.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_environment.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_execution_plan.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_function.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_chronometer.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_optimizer.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_meta.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_repeat.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_run_for_at_least.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_measure.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_complete_invoke.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_timing.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_estimate_clock.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_stats.hpp \
- /usr/include/c++/14/algorithm /usr/include/c++/14/bits/stl_algo.h \
- /usr/include/c++/14/bits/algorithmfwd.h \
- /usr/include/c++/14/bits/stl_heap.h \
- /usr/include/c++/14/bits/uniform_int_dist.h \
- /usr/include/c++/14/bits/stl_tempbuf.h \
- /usr/include/c++/14/pstl/glue_algorithm_defs.h \
- /usr/include/c++/14/pstl/execution_defs.h /usr/include/c++/14/cmath \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/14/bits/specfun.h \
- /usr/include/c++/14/tr1/gamma.tcc \
- /usr/include/c++/14/tr1/special_function_util.h \
- /usr/include/c++/14/tr1/bessel_function.tcc \
- /usr/include/c++/14/tr1/beta_function.tcc \
- /usr/include/c++/14/tr1/ell_integral.tcc \
- /usr/include/c++/14/tr1/exp_integral.tcc \
- /usr/include/c++/14/tr1/hypergeometric.tcc \
- /usr/include/c++/14/tr1/legendre_function.tcc \
- /usr/include/c++/14/tr1/modified_bessel_func.tcc \
- /usr/include/c++/14/tr1/poly_hermite.tcc \
- /usr/include/c++/14/tr1/poly_laguerre.tcc \
- /usr/include/c++/14/tr1/riemann_zeta.tcc \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_analyse.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_sample_analysis.hpp \
+ /usr/include/c++/14/bits/parse_numbers.h /usr/include/c++/14/sstream \
+ /usr/include/c++/14/istream /usr/include/c++/14/ios \
  /usr/include/c++/14/exception /usr/include/c++/14/bits/exception_ptr.h \
  /usr/include/c++/14/bits/cxxabi_init_exception.h \
  /usr/include/c++/14/typeinfo /usr/include/c++/14/bits/nested_exception.h \
- /usr/include/c++/14/functional /usr/include/c++/14/bits/std_function.h \
- /usr/include/c++/14/unordered_map \
- /usr/include/c++/14/bits/unordered_map.h \
- /usr/include/c++/14/bits/hashtable.h \
- /usr/include/c++/14/bits/hashtable_policy.h \
- /usr/include/c++/14/ext/aligned_buffer.h \
- /usr/include/c++/14/bits/enable_special_members.h \
- /usr/include/c++/14/bits/node_handle.h \
- /usr/include/c++/14/bits/erase_if.h /usr/include/c++/14/array \
- /usr/include/c++/14/compare \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_constructor.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/catch_approx.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/catch_tostring.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_wchar.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_reusable_string_stream.hpp \
- /usr/include/c++/14/ostream /usr/include/c++/14/ios \
  /usr/include/c++/14/bits/ios_base.h /usr/include/c++/14/ext/atomicity.h \
  /usr/include/c++/14/x86_64-suse-linux/bits/gthr.h \
  /usr/include/c++/14/x86_64-suse-linux/bits/gthr-default.h \
@@ -219,8 +150,102 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/include/c++/14/bits/streambuf_iterator.h \
  /usr/include/c++/14/x86_64-suse-linux/bits/ctype_inline.h \
  /usr/include/c++/14/bits/locale_facets.tcc \
- /usr/include/c++/14/bits/basic_ios.tcc \
+ /usr/include/c++/14/bits/basic_ios.tcc /usr/include/c++/14/ostream \
  /usr/include/c++/14/bits/ostream.tcc \
+ /usr/include/c++/14/bits/istream.tcc \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/vector \
+ /usr/include/c++/14/bits/stl_uninitialized.h \
+ /usr/include/c++/14/bits/stl_vector.h \
+ /usr/include/c++/14/bits/stl_bvector.h \
+ /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/bits/stl_algo.h \
+ /usr/include/c++/14/bits/algorithmfwd.h \
+ /usr/include/c++/14/bits/stl_heap.h \
+ /usr/include/c++/14/bits/uniform_int_dist.h \
+ /usr/include/c++/14/bits/stl_tempbuf.h \
+ /usr/include/c++/14/bits/shared_ptr.h \
+ /usr/include/c++/14/bits/shared_ptr_base.h \
+ /usr/include/c++/14/bits/allocated_ptr.h \
+ /usr/include/c++/14/bits/unique_ptr.h \
+ /usr/include/c++/14/ext/aligned_buffer.h \
+ /usr/include/c++/14/ext/concurrence.h /usr/include/c++/14/bits/align.h \
+ /usr/include/c++/14/bits/chrono_io.h /usr/include/c++/14/iomanip \
+ /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/locale_facets_nonio.h \
+ /usr/include/c++/14/x86_64-suse-linux/bits/time_members.h \
+ /usr/include/c++/14/x86_64-suse-linux/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14/bits/locale_conv.h \
+ /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/format \
+ /usr/include/c++/14/array /usr/include/c++/14/charconv \
+ /usr/include/c++/14/optional \
+ /usr/include/c++/14/bits/enable_special_members.h \
+ /usr/include/c++/14/span /usr/include/c++/14/variant \
+ /usr/include/c++/14/bits/ranges_algobase.h \
+ /usr/include/c++/14/bits/unicode.h \
+ /usr/include/c++/14/bits/unicode-data.h \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
+ /usr/include/c++/14/cassert /usr/include/assert.h \
+ /usr/include/c++/14/cstring /usr/include/string.h /usr/include/strings.h \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_result_type.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats_fwd.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_config.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_estimate.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_outlier_classification.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_clock.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_environment.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_execution_plan.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_function.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_chronometer.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_optimizer.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_meta.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_repeat.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_run_for_at_least.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_measure.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_complete_invoke.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_timing.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_estimate_clock.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_stats.hpp \
+ /usr/include/c++/14/algorithm /usr/include/c++/14/bits/ranges_algo.h \
+ /usr/include/c++/14/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/14/pstl/execution_defs.h /usr/include/c++/14/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/14/bits/specfun.h \
+ /usr/include/c++/14/tr1/gamma.tcc \
+ /usr/include/c++/14/tr1/special_function_util.h \
+ /usr/include/c++/14/tr1/bessel_function.tcc \
+ /usr/include/c++/14/tr1/beta_function.tcc \
+ /usr/include/c++/14/tr1/ell_integral.tcc \
+ /usr/include/c++/14/tr1/exp_integral.tcc \
+ /usr/include/c++/14/tr1/hypergeometric.tcc \
+ /usr/include/c++/14/tr1/legendre_function.tcc \
+ /usr/include/c++/14/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/14/tr1/poly_hermite.tcc \
+ /usr/include/c++/14/tr1/poly_laguerre.tcc \
+ /usr/include/c++/14/tr1/riemann_zeta.tcc \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_analyse.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_sample_analysis.hpp \
+ /usr/include/c++/14/functional /usr/include/c++/14/bits/std_function.h \
+ /usr/include/c++/14/unordered_map \
+ /usr/include/c++/14/bits/unordered_map.h \
+ /usr/include/c++/14/bits/hashtable.h \
+ /usr/include/c++/14/bits/hashtable_policy.h \
+ /usr/include/c++/14/bits/node_handle.h \
+ /usr/include/c++/14/bits/erase_if.h \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_constructor.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/catch_approx.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/catch_tostring.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_wchar.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_reusable_string_stream.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_void_type.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_enum_values_registry.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/catch_assertion_info.hpp \
@@ -247,20 +272,28 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/catch_session.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_commandline.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_clara.hpp \
- /usr/include/c++/14/optional /usr/include/c++/14/memory \
+ /usr/include/c++/14/memory \
  /usr/include/c++/14/bits/stl_raw_storage_iter.h \
- /usr/include/c++/14/bits/align.h /usr/include/c++/14/bits/unique_ptr.h \
- /usr/include/c++/14/bits/shared_ptr.h \
- /usr/include/c++/14/bits/shared_ptr_base.h \
- /usr/include/c++/14/bits/allocated_ptr.h \
- /usr/include/c++/14/ext/concurrence.h \
  /usr/include/c++/14/bits/shared_ptr_atomic.h \
  /usr/include/c++/14/bits/atomic_base.h \
  /usr/include/c++/14/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14/bits/atomic_wait.h /usr/include/c++/14/climits \
+ /usr/lib64/gcc/x86_64-suse-linux/14/include/limits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/14/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/syscall.h \
+ /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
+ /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h \
+ /usr/include/c++/14/bits/std_mutex.h \
  /usr/include/c++/14/backward/auto_ptr.h \
- /usr/include/c++/14/pstl/glue_memory_defs.h /usr/include/c++/14/sstream \
- /usr/include/c++/14/istream /usr/include/c++/14/bits/istream.tcc \
- /usr/include/c++/14/bits/sstream.tcc \
+ /usr/include/c++/14/bits/ranges_uninitialized.h \
+ /usr/include/c++/14/pstl/glue_memory_defs.h \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/catch_tag_alias.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/catch_tag_alias_autoregistrar.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/catch_template_test_macros.hpp \
@@ -373,7 +406,6 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/reporters/catch_reporter_tap.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/reporters/catch_reporter_teamcity.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/reporters/catch_reporter_xml.hpp \
- /usr/include/c++/14/variant \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/include/json.hpp \
  /usr/local/include/boost/spirit/home/x3.hpp \
  /usr/local/include/boost/spirit/home/x3/auxiliary.hpp \
@@ -391,10 +423,6 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/local/include/boost/config/detail/select_stdlib_config.hpp \
  /usr/include/c++/14/version \
  /usr/local/include/boost/config/stdlib/libstdcpp3.hpp \
- /usr/include/unistd.h /usr/include/bits/posix_opt.h \
- /usr/include/bits/environments.h /usr/include/bits/confname.h \
- /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
- /usr/include/bits/unistd_ext.h /usr/include/linux/close_range.h \
  /usr/local/include/boost/config/detail/select_platform_config.hpp \
  /usr/local/include/boost/config/platform/linux.hpp \
  /usr/local/include/boost/config/detail/posix_features.hpp \
@@ -506,6 +534,11 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/local/include/boost/preprocessor/variadic/size.hpp \
  /usr/local/include/boost/preprocessor/facilities/check_empty.hpp \
  /usr/local/include/boost/preprocessor/variadic/has_opt.hpp \
+ /usr/local/include/boost/preprocessor/variadic/detail/has_opt.hpp \
+ /usr/local/include/boost/preprocessor/facilities/is_empty_variadic.hpp \
+ /usr/local/include/boost/preprocessor/punctuation/is_begin_parens.hpp \
+ /usr/local/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp \
+ /usr/local/include/boost/preprocessor/facilities/detail/is_empty.hpp \
  /usr/local/include/boost/preprocessor/variadic/limits/size_64.hpp \
  /usr/local/include/boost/preprocessor/tuple/rem.hpp \
  /usr/local/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
@@ -822,7 +855,7 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/local/include/boost/throw_exception.hpp \
  /usr/local/include/boost/exception/exception.hpp \
  /usr/local/include/boost/assert/source_location.hpp \
- /usr/local/include/boost/cstdint.hpp \
+ /usr/local/include/boost/cstdint.hpp /usr/include/c++/14/source_location \
  /usr/local/include/boost/core/demangle.hpp /usr/include/c++/14/cxxabi.h \
  /usr/include/c++/14/x86_64-suse-linux/bits/cxxabi_tweaks.h \
  /usr/local/include/boost/variant/detail/config.hpp \
@@ -913,13 +946,8 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/local/include/boost/type_traits/has_trivial_copy.hpp \
  /usr/local/include/boost/type_traits/has_trivial_destructor.hpp \
  /usr/local/include/boost/integer/common_factor_ct.hpp \
- /usr/local/include/boost/integer_fwd.hpp /usr/include/c++/14/climits \
- /usr/lib64/gcc/x86_64-suse-linux/14/include/limits.h \
- /usr/lib64/gcc/x86_64-suse-linux/14/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/local/include/boost/limits.hpp \
+ /usr/local/include/boost/integer_fwd.hpp \
+ /usr/local/include/boost/limits.hpp \
  /usr/local/include/boost/type_traits/aligned_storage.hpp \
  /usr/local/include/boost/type_traits/alignment_of.hpp \
  /usr/local/include/boost/type_traits/type_with_alignment.hpp \
@@ -1292,10 +1320,6 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/local/include/boost/preprocessor/if.hpp \
  /usr/local/include/boost/preprocessor/seq/push_front.hpp \
  /usr/local/include/boost/preprocessor/facilities/is_empty.hpp \
- /usr/local/include/boost/preprocessor/facilities/is_empty_variadic.hpp \
- /usr/local/include/boost/preprocessor/punctuation/is_begin_parens.hpp \
- /usr/local/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp \
- /usr/local/include/boost/preprocessor/facilities/detail/is_empty.hpp \
  /usr/local/include/boost/fusion/adapted/struct/detail/at_impl.hpp \
  /usr/local/include/boost/fusion/adapted/struct/detail/is_view_impl.hpp \
  /usr/local/include/boost/fusion/adapted/struct/detail/is_sequence_impl.hpp \
@@ -1307,4 +1331,7 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: \
  /usr/local/include/boost/fusion/adapted/struct/detail/end_impl.hpp \
  /usr/local/include/boost/fusion/adapted/struct/detail/value_of_impl.hpp \
  /usr/local/include/boost/fusion/adapted/struct/detail/deref_impl.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/include/../tests/parser.hpp
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/parser_helper/include/parser.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/parser_helper/include/quoted_string.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/parser_helper/include/variant_decorator.hpp \
+ /usr/local/include/boost/spirit/home/x3/support/ast/variant.hpp

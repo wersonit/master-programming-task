@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/user/Desktop/cpp_labs/master-programming-task/lab6/include -I/home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/.. -I/home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-build/generated-includes
+CXX_INCLUDES = -I/home/user/Desktop/cpp_labs/master-programming-task/lab6/include -I/home/user/Desktop/cpp_labs/master-programming-task/lab6/parser_helper/include -I/home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/.. -I/home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-build/generated-includes
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=gnu++20
 

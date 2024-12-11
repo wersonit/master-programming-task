@@ -35,17 +35,10 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_f
  /usr/include/c++/14/bits/parse_numbers.h \
  /usr/include/c++/14/ext/numeric_traits.h \
  /usr/include/c++/14/bits/cpp_type_traits.h \
- /usr/include/c++/14/ext/type_traits.h \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_chronometer.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_optimizer.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_meta.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_measure.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_complete_invoke.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_timing.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_enforce.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_source_line_info.hpp \
- /usr/include/c++/14/cstddef /usr/include/c++/14/iosfwd \
+ /usr/include/c++/14/ext/type_traits.h /usr/include/c++/14/concepts \
+ /usr/include/c++/14/compare /usr/include/c++/14/bit \
+ /usr/include/c++/14/sstream /usr/include/c++/14/istream \
+ /usr/include/c++/14/ios /usr/include/c++/14/iosfwd \
  /usr/include/c++/14/bits/stringfwd.h \
  /usr/include/c++/14/bits/memoryfwd.h /usr/include/c++/14/bits/postypes.h \
  /usr/include/c++/14/cwchar /usr/include/wchar.h \
@@ -53,14 +46,8 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_f
  /usr/lib64/gcc/x86_64-suse-linux/14/include/stdarg.h \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
- /usr/include/bits/types/FILE.h \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_reusable_string_stream.hpp \
- /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
- /usr/include/c++/14/ostream /usr/include/c++/14/ios \
- /usr/include/c++/14/exception /usr/include/c++/14/bits/exception.h \
+ /usr/include/bits/types/FILE.h /usr/include/c++/14/exception \
+ /usr/include/c++/14/bits/exception.h \
  /usr/include/c++/14/bits/exception_ptr.h \
  /usr/include/c++/14/bits/exception_defines.h \
  /usr/include/c++/14/bits/cxxabi_init_exception.h \
@@ -68,6 +55,14 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_f
  /usr/include/c++/14/new /usr/include/c++/14/bits/move.h \
  /usr/include/c++/14/bits/nested_exception.h \
  /usr/include/c++/14/bits/char_traits.h \
+ /usr/include/c++/14/bits/stl_construct.h \
+ /usr/include/c++/14/bits/stl_iterator_base_types.h \
+ /usr/include/c++/14/bits/iterator_concepts.h \
+ /usr/include/c++/14/bits/ptr_traits.h \
+ /usr/include/c++/14/bits/ranges_cmp.h \
+ /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/14/bits/concept_check.h \
+ /usr/include/c++/14/debug/assertions.h \
  /usr/include/c++/14/bits/localefwd.h \
  /usr/include/c++/14/x86_64-suse-linux/bits/c++locale.h \
  /usr/include/c++/14/clocale /usr/include/locale.h \
@@ -94,27 +89,22 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_f
  /usr/include/c++/14/bits/functexcept.h \
  /usr/include/c++/14/bits/ostream_insert.h \
  /usr/include/c++/14/bits/cxxabi_forced.h \
- /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/14/bits/concept_check.h \
- /usr/include/c++/14/debug/assertions.h \
- /usr/include/c++/14/bits/stl_iterator_base_types.h \
  /usr/include/c++/14/bits/stl_iterator.h \
- /usr/include/c++/14/bits/ptr_traits.h \
  /usr/include/c++/14/bits/stl_function.h \
  /usr/include/c++/14/backward/binders.h \
  /usr/include/c++/14/bits/stl_algobase.h \
  /usr/include/c++/14/bits/stl_pair.h /usr/include/c++/14/bits/utility.h \
  /usr/include/c++/14/debug/debug.h \
- /usr/include/c++/14/bits/predefined_ops.h /usr/include/c++/14/bit \
- /usr/include/c++/14/concepts /usr/include/c++/14/bits/refwrap.h \
- /usr/include/c++/14/bits/invoke.h \
+ /usr/include/c++/14/bits/predefined_ops.h \
+ /usr/include/c++/14/bits/refwrap.h /usr/include/c++/14/bits/invoke.h \
  /usr/include/c++/14/bits/range_access.h \
  /usr/include/c++/14/initializer_list \
  /usr/include/c++/14/bits/basic_string.h \
  /usr/include/c++/14/ext/alloc_traits.h \
- /usr/include/c++/14/bits/alloc_traits.h \
- /usr/include/c++/14/bits/stl_construct.h /usr/include/c++/14/string_view \
+ /usr/include/c++/14/bits/alloc_traits.h /usr/include/c++/14/string_view \
  /usr/include/c++/14/bits/functional_hash.h \
+ /usr/include/c++/14/bits/ranges_base.h \
+ /usr/include/c++/14/bits/max_size_type.h /usr/include/c++/14/numbers \
  /usr/include/c++/14/bits/string_view.tcc \
  /usr/include/c++/14/ext/string_conversions.h /usr/include/c++/14/cstdlib \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
@@ -134,9 +124,10 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_f
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/bits/types/error_t.h /usr/include/c++/14/bits/charconv.h \
  /usr/include/c++/14/bits/basic_string.tcc \
- /usr/include/c++/14/bits/memory_resource.h \
+ /usr/include/c++/14/bits/memory_resource.h /usr/include/c++/14/cstddef \
  /usr/include/c++/14/bits/uses_allocator.h \
  /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
+ /usr/include/c++/14/bits/ranges_util.h \
  /usr/include/c++/14/bits/locale_classes.tcc \
  /usr/include/c++/14/system_error \
  /usr/include/c++/14/x86_64-suse-linux/bits/error_constants.h \
@@ -149,5 +140,51 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_f
  /usr/include/c++/14/bits/streambuf_iterator.h \
  /usr/include/c++/14/x86_64-suse-linux/bits/ctype_inline.h \
  /usr/include/c++/14/bits/locale_facets.tcc \
- /usr/include/c++/14/bits/basic_ios.tcc \
- /usr/include/c++/14/bits/ostream.tcc
+ /usr/include/c++/14/bits/basic_ios.tcc /usr/include/c++/14/ostream \
+ /usr/include/c++/14/bits/ostream.tcc \
+ /usr/include/c++/14/bits/istream.tcc \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/vector \
+ /usr/include/c++/14/bits/stl_uninitialized.h \
+ /usr/include/c++/14/bits/stl_vector.h \
+ /usr/include/c++/14/bits/stl_bvector.h \
+ /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/bits/stl_algo.h \
+ /usr/include/c++/14/bits/algorithmfwd.h \
+ /usr/include/c++/14/bits/stl_heap.h \
+ /usr/include/c++/14/bits/uniform_int_dist.h \
+ /usr/include/c++/14/bits/stl_tempbuf.h \
+ /usr/include/c++/14/bits/shared_ptr.h \
+ /usr/include/c++/14/bits/shared_ptr_base.h \
+ /usr/include/c++/14/bits/allocated_ptr.h \
+ /usr/include/c++/14/bits/unique_ptr.h \
+ /usr/include/c++/14/ext/aligned_buffer.h \
+ /usr/include/c++/14/ext/concurrence.h /usr/include/c++/14/bits/align.h \
+ /usr/include/c++/14/bits/chrono_io.h /usr/include/c++/14/iomanip \
+ /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/locale_facets_nonio.h \
+ /usr/include/c++/14/x86_64-suse-linux/bits/time_members.h \
+ /usr/include/c++/14/x86_64-suse-linux/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14/bits/locale_conv.h \
+ /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/format \
+ /usr/include/c++/14/array /usr/include/c++/14/charconv \
+ /usr/include/c++/14/optional \
+ /usr/include/c++/14/bits/enable_special_members.h \
+ /usr/include/c++/14/span /usr/include/c++/14/variant \
+ /usr/include/c++/14/bits/ranges_algobase.h \
+ /usr/include/c++/14/bits/unicode.h \
+ /usr/include/c++/14/bits/unicode-data.h \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_chronometer.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_optimizer.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_meta.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_measure.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_complete_invoke.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_timing.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_enforce.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_source_line_info.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_reusable_string_stream.hpp \
+ /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp

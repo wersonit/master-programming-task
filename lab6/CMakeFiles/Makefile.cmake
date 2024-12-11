@@ -16,6 +16,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/catch2-src/CMakeLists.txt"
   "_deps/catch2-src/src/CMakeLists.txt"
   "_deps/catch2-src/src/catch2/catch_user_config.hpp.in"
+  "parser_helper/CMakeLists.txt"
+  "/usr/local/lib64/cmake/Boost-1.87.0/BoostConfig.cmake"
+  "/usr/local/lib64/cmake/Boost-1.87.0/BoostConfigVersion.cmake"
+  "/usr/local/lib64/cmake/boost_headers-1.87.0/boost_headers-config-version.cmake"
+  "/usr/local/lib64/cmake/boost_headers-1.87.0/boost_headers-config.cmake"
+  "/usr/local/lib64/cmake/boost_headers-1.87.0/boost_headers-targets.cmake"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -60,8 +66,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "_deps/catch2-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/catch2-subbuild/CMakeLists.txt"
+  "parser_helper/CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/catch2-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp"
   "_deps/catch2-build/src/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -70,6 +77,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tests_json_parser.dir/DependInfo.cmake"
+  "parser_helper/CMakeFiles/tests_parser_helper.dir/DependInfo.cmake"
   "_deps/catch2-build/src/CMakeFiles/Catch2.dir/DependInfo.cmake"
   "_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/DependInfo.cmake"
   )

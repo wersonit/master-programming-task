@@ -171,12 +171,16 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   _deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.hpp \
   _deps/catch2-src/src/catch2/reporters/catch_reporter_xml.hpp \
   _deps/catch2-src/src/catch2/reporters/catch_reporters_all.hpp \
-  tests/parser.hpp \
   include/json.hpp \
+  parser_helper/include/parser.hpp \
+  parser_helper/include/quoted_string.hpp \
+  parser_helper/include/variant_decorator.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm/errno.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
@@ -219,6 +223,7 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/syscall.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -271,6 +276,7 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/bits/allocator.h \
   /usr/include/c++/14/bits/atomic_base.h \
   /usr/include/c++/14/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/14/bits/atomic_wait.h \
   /usr/include/c++/14/bits/basic_ios.h \
   /usr/include/c++/14/bits/basic_ios.tcc \
   /usr/include/c++/14/bits/basic_string.h \
@@ -278,6 +284,8 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/bits/char_traits.h \
   /usr/include/c++/14/bits/charconv.h \
   /usr/include/c++/14/bits/chrono.h \
+  /usr/include/c++/14/bits/chrono_io.h \
+  /usr/include/c++/14/bits/codecvt.h \
   /usr/include/c++/14/bits/concept_check.h \
   /usr/include/c++/14/bits/cpp_type_traits.h \
   /usr/include/c++/14/bits/cxxabi_forced.h \
@@ -295,11 +303,16 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/bits/invoke.h \
   /usr/include/c++/14/bits/ios_base.h \
   /usr/include/c++/14/bits/istream.tcc \
+  /usr/include/c++/14/bits/iterator_concepts.h \
   /usr/include/c++/14/bits/locale_classes.h \
   /usr/include/c++/14/bits/locale_classes.tcc \
+  /usr/include/c++/14/bits/locale_conv.h \
   /usr/include/c++/14/bits/locale_facets.h \
   /usr/include/c++/14/bits/locale_facets.tcc \
+  /usr/include/c++/14/bits/locale_facets_nonio.h \
+  /usr/include/c++/14/bits/locale_facets_nonio.tcc \
   /usr/include/c++/14/bits/localefwd.h \
+  /usr/include/c++/14/bits/max_size_type.h \
   /usr/include/c++/14/bits/memory_resource.h \
   /usr/include/c++/14/bits/memoryfwd.h \
   /usr/include/c++/14/bits/move.h \
@@ -312,9 +325,16 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/bits/postypes.h \
   /usr/include/c++/14/bits/predefined_ops.h \
   /usr/include/c++/14/bits/ptr_traits.h \
+  /usr/include/c++/14/bits/quoted_string.h \
   /usr/include/c++/14/bits/random.h \
   /usr/include/c++/14/bits/random.tcc \
   /usr/include/c++/14/bits/range_access.h \
+  /usr/include/c++/14/bits/ranges_algo.h \
+  /usr/include/c++/14/bits/ranges_algobase.h \
+  /usr/include/c++/14/bits/ranges_base.h \
+  /usr/include/c++/14/bits/ranges_cmp.h \
+  /usr/include/c++/14/bits/ranges_uninitialized.h \
+  /usr/include/c++/14/bits/ranges_util.h \
   /usr/include/c++/14/bits/refwrap.h \
   /usr/include/c++/14/bits/requires_hosted.h \
   /usr/include/c++/14/bits/shared_ptr.h \
@@ -324,6 +344,7 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/bits/sstream.tcc \
   /usr/include/c++/14/bits/std_abs.h \
   /usr/include/c++/14/bits/std_function.h \
+  /usr/include/c++/14/bits/std_mutex.h \
   /usr/include/c++/14/bits/stl_algo.h \
   /usr/include/c++/14/bits/stl_algobase.h \
   /usr/include/c++/14/bits/stl_bvector.h \
@@ -350,6 +371,8 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/bits/streambuf_iterator.h \
   /usr/include/c++/14/bits/string_view.tcc \
   /usr/include/c++/14/bits/stringfwd.h \
+  /usr/include/c++/14/bits/unicode-data.h \
+  /usr/include/c++/14/bits/unicode.h \
   /usr/include/c++/14/bits/uniform_int_dist.h \
   /usr/include/c++/14/bits/unique_ptr.h \
   /usr/include/c++/14/bits/unordered_map.h \
@@ -363,6 +386,7 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/cctype \
   /usr/include/c++/14/cerrno \
   /usr/include/c++/14/cfloat \
+  /usr/include/c++/14/charconv \
   /usr/include/c++/14/chrono \
   /usr/include/c++/14/climits \
   /usr/include/c++/14/clocale \
@@ -388,16 +412,20 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/ext/numeric_traits.h \
   /usr/include/c++/14/ext/string_conversions.h \
   /usr/include/c++/14/ext/type_traits.h \
+  /usr/include/c++/14/format \
   /usr/include/c++/14/functional \
   /usr/include/c++/14/initializer_list \
+  /usr/include/c++/14/iomanip \
   /usr/include/c++/14/ios \
   /usr/include/c++/14/iosfwd \
   /usr/include/c++/14/istream \
   /usr/include/c++/14/iterator \
   /usr/include/c++/14/limits \
+  /usr/include/c++/14/locale \
   /usr/include/c++/14/map \
   /usr/include/c++/14/memory \
   /usr/include/c++/14/new \
+  /usr/include/c++/14/numbers \
   /usr/include/c++/14/numeric \
   /usr/include/c++/14/optional \
   /usr/include/c++/14/ostream \
@@ -409,6 +437,8 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/random \
   /usr/include/c++/14/ratio \
   /usr/include/c++/14/set \
+  /usr/include/c++/14/source_location \
+  /usr/include/c++/14/span \
   /usr/include/c++/14/sstream \
   /usr/include/c++/14/stdexcept \
   /usr/include/c++/14/streambuf \
@@ -446,8 +476,10 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/c++/14/x86_64-suse-linux/bits/error_constants.h \
   /usr/include/c++/14/x86_64-suse-linux/bits/gthr-default.h \
   /usr/include/c++/14/x86_64-suse-linux/bits/gthr.h \
+  /usr/include/c++/14/x86_64-suse-linux/bits/messages_members.h \
   /usr/include/c++/14/x86_64-suse-linux/bits/opt_random.h \
   /usr/include/c++/14/x86_64-suse-linux/bits/os_defines.h \
+  /usr/include/c++/14/x86_64-suse-linux/bits/time_members.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -455,6 +487,7 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
@@ -472,7 +505,9 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/syscall.h \
   /usr/include/sys/types.h \
+  /usr/include/syscall.h \
   /usr/include/time.h \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
@@ -1123,6 +1158,7 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/local/include/boost/preprocessor/tuple/rem.hpp \
   /usr/local/include/boost/preprocessor/tuple/size.hpp \
   /usr/local/include/boost/preprocessor/tuple/to_seq.hpp \
+  /usr/local/include/boost/preprocessor/variadic/detail/has_opt.hpp \
   /usr/local/include/boost/preprocessor/variadic/elem.hpp \
   /usr/local/include/boost/preprocessor/variadic/has_opt.hpp \
   /usr/local/include/boost/preprocessor/variadic/limits/elem_64.hpp \
@@ -1236,6 +1272,7 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
   /usr/local/include/boost/spirit/home/x3/string/literal_string.hpp \
   /usr/local/include/boost/spirit/home/x3/string/symbols.hpp \
   /usr/local/include/boost/spirit/home/x3/string/tst.hpp \
+  /usr/local/include/boost/spirit/home/x3/support/ast/variant.hpp \
   /usr/local/include/boost/spirit/home/x3/support/context.hpp \
   /usr/local/include/boost/spirit/home/x3/support/no_case.hpp \
   /usr/local/include/boost/spirit/home/x3/support/numeric_utils/detail/extract_int.hpp \
@@ -1504,8 +1541,6 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
 
 /usr/local/include/boost/type_traits/is_empty.hpp:
 
-/usr/local/include/boost/type_traits/is_destructible.hpp:
-
 /usr/local/include/boost/type_traits/is_default_constructible.hpp:
 
 /usr/local/include/boost/type_traits/is_copy_constructible.hpp:
@@ -1527,8 +1562,6 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
 /usr/local/include/boost/type_traits/has_plus.hpp:
 
 /usr/local/include/boost/type_traits/has_nothrow_assign.hpp:
-
-/usr/local/include/boost/type_traits/has_minus_assign.hpp:
 
 /usr/local/include/boost/type_traits/has_minus.hpp:
 
@@ -1597,6 +1630,8 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
 /usr/local/include/boost/spirit/home/x3/support/numeric_utils/extract_int.hpp:
 
 /usr/local/include/boost/spirit/home/x3/support/context.hpp:
+
+/usr/local/include/boost/spirit/home/x3/support/ast/variant.hpp:
 
 /usr/local/include/boost/spirit/home/x3/string/symbols.hpp:
 
@@ -1708,8 +1743,6 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
 
 /usr/local/include/boost/range/has_range_iterator.hpp:
 
-/usr/local/include/boost/range/functions.hpp:
-
 /usr/local/include/boost/range/end.hpp:
 
 /usr/local/include/boost/range/empty.hpp:
@@ -1734,6 +1767,8 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
 
 /usr/local/include/boost/preprocessor/variadic/elem.hpp:
 
+/usr/local/include/boost/preprocessor/variadic/detail/has_opt.hpp:
+
 /usr/local/include/boost/preprocessor/tuple/to_seq.hpp:
 
 /usr/local/include/boost/preprocessor/tuple/rem.hpp:
@@ -1744,67 +1779,71 @@ CMakeFiles/tests_json_parser.dir/tests/json.cpp.o: tests/json.cpp \
 
 /usr/local/include/boost/preprocessor/seq/size.hpp:
 
-/usr/local/include/boost/preprocessor/seq/seq.hpp:
+/usr/local/include/boost/preprocessor/seq/push_front.hpp:
 
-/usr/local/include/boost/fusion/adapted/mpl/detail/is_sequence_impl.hpp:
+/usr/local/include/boost/preprocessor/seq/limits/size_256.hpp:
 
-/usr/local/include/boost/fusion/adapted/mpl/detail/has_key_impl.hpp:
+/usr/local/include/boost/preprocessor/seq/limits/enum_256.hpp:
 
-/usr/local/include/boost/exception/exception.hpp:
+/usr/local/include/boost/spirit/home/x3/directive/seek.hpp:
 
-/usr/local/include/boost/type_traits/is_volatile.hpp:
+/usr/local/include/boost/preprocessor/seq/limits/elem_256.hpp:
 
-/usr/local/include/boost/detail/workaround.hpp:
+/usr/local/include/boost/preprocessor/seq/for_each_i.hpp:
 
-/usr/local/include/boost/detail/templated_streams.hpp:
+/usr/local/include/boost/preprocessor/seq/for_each.hpp:
 
-/usr/local/include/boost/detail/select_type.hpp:
+/usr/local/include/boost/type_traits/is_class.hpp:
 
-/usr/local/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
+/usr/local/include/boost/type_traits/add_rvalue_reference.hpp:
 
-/usr/local/include/boost/detail/reference_content.hpp:
+/usr/local/include/boost/preprocessor/seq/fold_left.hpp:
 
-/usr/local/include/boost/mpl/sequence_tag.hpp:
+/usr/local/include/boost/preprocessor/seq/enum.hpp:
 
-/usr/local/include/boost/detail/indirect_traits.hpp:
+/usr/local/include/boost/spirit/home/x3/directive/no_skip.hpp:
 
-/usr/local/include/boost/cstdint.hpp:
+/usr/local/include/boost/preprocessor/seq/elem.hpp:
 
-/usr/local/include/boost/variant/detail/enable_recursive_fwd.hpp:
+/usr/local/include/boost/preprocessor/seq/detail/is_empty.hpp:
 
-/usr/local/include/boost/core/use_default.hpp:
+/usr/local/include/boost/preprocessor/seq/cat.hpp:
 
-/usr/include/stdlib.h:
+/usr/local/include/boost/preprocessor/repetition/repeat.hpp:
 
-/usr/local/include/boost/core/noncopyable.hpp:
+/usr/local/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
 
-/usr/local/include/boost/fusion/container/map/detail/map_impl.hpp:
+/usr/local/include/boost/preprocessor/repetition/limits/for_256.hpp:
 
-_deps/catch2-src/src/catch2/internal/catch_source_line_info.hpp:
+/usr/local/include/boost/preprocessor/repetition/for.hpp:
 
-/usr/local/include/boost/core/ignore_unused.hpp:
+/usr/local/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
 
-/usr/include/c++/14/ext/aligned_buffer.h:
+/usr/local/include/boost/preprocessor/repetition/enum_params.hpp:
 
-/usr/local/include/boost/fusion/sequence/intrinsic/at.hpp:
+/usr/local/include/boost/preprocessor/repetition/enum_binary_params.hpp:
 
-/usr/local/include/boost/config/workaround.hpp:
+/usr/local/include/boost/spirit/home/x3/support/subcontext.hpp:
 
-/usr/local/include/boost/spirit/home/support/char_encoding/standard_wide.hpp:
+/usr/local/include/boost/preprocessor/repetition/enum.hpp:
 
-/usr/local/include/boost/config/stdlib/libstdcpp3.hpp:
+/usr/local/include/boost/preprocessor/repetition/detail/limits/for_256.hpp:
 
-/usr/local/include/boost/fusion/container/map.hpp:
+/usr/local/include/boost/type_traits/is_const.hpp:
 
-/usr/local/include/boost/range/iterator_range_core.hpp:
+/usr/local/include/boost/preprocessor/repetition/detail/for.hpp:
 
-/usr/local/include/boost/mpl/aux_/iter_fold_impl.hpp:
+/usr/local/include/boost/preprocessor/repeat.hpp:
 
-/usr/local/include/boost/fusion/iterator/detail/adapt_deref_traits.hpp:
+/usr/local/include/boost/preprocessor/punctuation/is_begin_parens.hpp:
 
-/usr/local/include/boost/config/helper_macros.hpp:
+/usr/local/include/boost/preprocessor/punctuation/comma_if.hpp:
 
-/usr/local/include/boost/mpl/front_fwd.hpp:
+/usr/local/include/boost/preprocessor/logical/not.hpp:
+
+/usr/local/include/boost/preprocessor/logical/compl.hpp:
+
+/usr/local/include/boost/preprocessor/logical/bitor.hpp:
 
 /usr/local/include/boost/fusion/view/joint_view/joint_view.hpp:
 
@@ -1826,8 +1865,6 @@ _deps/catch2-src/src/catch2/internal/catch_source_line_info.hpp:
 
 /usr/local/include/boost/concept/detail/general.hpp:
 
-/usr/local/include/boost/concept/detail/concept_def.hpp:
-
 _deps/catch2-src/src/catch2/catch_section_info.hpp:
 
 /usr/lib64/gcc/x86_64-suse-linux/14/include/stddef.h:
@@ -1840,9 +1877,17 @@ _deps/catch2-src/src/catch2/benchmark/catch_outlier_classification.hpp:
 
 /usr/include/time.h:
 
+/usr/include/syscall.h:
+
 /usr/include/c++/14/bits/parse_numbers.h:
 
 /usr/include/asm-generic/errno.h:
+
+/usr/include/stdlib.h:
+
+/usr/local/include/boost/variant/detail/enable_recursive_fwd.hpp:
+
+/usr/local/include/boost/core/use_default.hpp:
 
 /usr/include/stdc-predef.h:
 
@@ -1850,23 +1895,21 @@ _deps/catch2-src/src/catch2/benchmark/catch_outlier_classification.hpp:
 
 /usr/local/include/boost/mpl/advance.hpp:
 
-/usr/local/include/boost/preprocessor/repetition/enum_params.hpp:
-
 /usr/include/locale.h:
 
-/usr/include/linux/errno.h:
-
 /usr/include/limits.h:
+
+/usr/local/include/boost/fusion/container/deque/detail/deque_keyed_values.hpp:
+
+/usr/local/include/boost/preprocessor/slot/detail/def.hpp:
+
+/usr/local/include/boost/fusion/view/joint_view/detail/deref_data_impl.hpp:
+
+/usr/local/include/boost/mpl/list/aux_/front.hpp:
 
 /usr/include/c++/14/x86_64-suse-linux/bits/os_defines.h:
 
 /usr/local/include/boost/fusion/iterator/equal_to.hpp:
-
-/usr/include/c++/14/x86_64-suse-linux/bits/opt_random.h:
-
-/usr/local/include/boost/spirit/home/x3/support/traits/attribute_type.hpp:
-
-/usr/local/include/boost/mpl/integral_c_fwd.hpp:
 
 /usr/include/c++/14/x86_64-suse-linux/bits/error_constants.h:
 
@@ -1884,16 +1927,6 @@ _deps/catch2-src/src/catch2/benchmark/catch_outlier_classification.hpp:
 
 /usr/local/include/boost/preprocessor/config/limits.hpp:
 
-/usr/local/include/boost/range/config.hpp:
-
-/usr/local/include/boost/core/addressof.hpp:
-
-/usr/include/c++/14/bits/memory_resource.h:
-
-/usr/local/include/boost/mpl/eval_if.hpp:
-
-/usr/local/include/boost/preprocessor/arithmetic/sub.hpp:
-
 /usr/include/gnu/stubs-64.h:
 
 /usr/include/c++/14/tr1/riemann_zeta.tcc:
@@ -1904,8 +1937,6 @@ _deps/catch2-src/src/catch2/internal/catch_debug_console.hpp:
 
 /usr/local/include/boost/preprocessor/if.hpp:
 
-/usr/local/include/boost/fusion/adapted/mpl/detail/begin_impl.hpp:
-
 /usr/include/c++/14/x86_64-suse-linux/bits/cpu_defines.h:
 
 /usr/include/c++/14/string:
@@ -1915,6 +1946,16 @@ _deps/catch2-src/src/catch2/internal/catch_debug_console.hpp:
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp:
 
 /usr/include/c++/14/streambuf:
+
+/usr/local/include/boost/type_traits/is_destructible.hpp:
+
+/usr/include/c++/14/span:
+
+/usr/local/include/boost/fusion/container/list/detail/value_at_impl.hpp:
+
+/usr/include/c++/14/source_location:
+
+/usr/include/bits/types/__mbstate_t.h:
 
 /usr/local/include/boost/type_traits/has_trivial_copy.hpp:
 
@@ -1948,6 +1989,10 @@ _deps/catch2-src/src/catch2/internal/catch_context.hpp:
 
 /usr/include/c++/14/pstl/glue_algorithm_defs.h:
 
+/usr/local/include/boost/type_traits/has_minus_assign.hpp:
+
+/usr/include/c++/14/bits/unicode.h:
+
 /usr/include/c++/14/istream:
 
 _deps/catch2-src/src/catch2/catch_tostring.hpp:
@@ -1974,15 +2019,13 @@ _deps/catch2-src/src/catch2/internal/catch_config_uncaught_exceptions.hpp:
 
 /usr/include/c++/14/debug/debug.h:
 
-/usr/include/c++/14/system_error:
-
-/usr/include/c++/14/ios:
-
-/usr/include/c++/14/cxxabi.h:
-
 /usr/include/c++/14/cwctype:
 
 _deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_stats.hpp:
+
+/usr/local/include/boost/concept/detail/concept_def.hpp:
+
+/usr/include/sys/syscall.h:
 
 /usr/local/include/boost/fusion/container/list/detail/reverse_cons.hpp:
 
@@ -2025,8 +2068,6 @@ _deps/catch2-src/src/catch2/internal/catch_config_android_logwrite.hpp:
 /usr/local/include/boost/type_traits/is_complete.hpp:
 
 /usr/include/c++/14/bitset:
-
-_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.hpp:
 
 /usr/include/c++/14/bits/version.h:
 
@@ -2086,6 +2127,12 @@ _deps/catch2-src/src/catch2/internal/catch_reporter_registry.hpp:
 
 /usr/include/c++/14/bits/stl_algo.h:
 
+/usr/local/include/boost/config/helper_macros.hpp:
+
+/usr/local/include/boost/mpl/front_fwd.hpp:
+
+_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.hpp:
+
 /usr/include/c++/14/bits/stl_set.h:
 
 /usr/include/c++/14/bits/sstream.tcc:
@@ -2100,9 +2147,15 @@ _deps/catch2-src/src/catch2/internal/catch_reporter_registry.hpp:
 
 /usr/include/c++/14/bits/requires_hosted.h:
 
-/usr/local/include/boost/mpl/aux_/iter_push_front.hpp:
+_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.hpp:
 
-/usr/local/include/boost/mpl/aux_/lambda_support.hpp:
+/usr/include/c++/14/bits/ranges_cmp.h:
+
+/usr/include/c++/14/bits/ranges_algo.h:
+
+/usr/local/include/boost/spirit/home/support/char_set/range.hpp:
+
+/usr/include/c++/14/bits/functional_hash.h:
 
 /usr/include/c++/14/bits/range_access.h:
 
@@ -2116,15 +2169,15 @@ _deps/catch2-src/src/catch2/internal/catch_reporter_registry.hpp:
 
 /usr/include/c++/14/bits/stl_function.h:
 
+/usr/include/linux/errno.h:
+
+/usr/include/c++/14/bits/quoted_string.h:
+
 /usr/include/c++/14/bits/predefined_ops.h:
 
 _deps/catch2-src/src/catch2/internal/catch_output_redirect.hpp:
 
 /usr/include/c++/14/initializer_list:
-
-/usr/local/include/boost/spirit/home/x3/directive/seek.hpp:
-
-/usr/local/include/boost/preprocessor/seq/limits/elem_256.hpp:
 
 /usr/include/c++/14/bits/postypes.h:
 
@@ -2140,7 +2193,7 @@ _deps/catch2-src/src/catch2/internal/catch_xmlwriter.hpp:
 
 /usr/local/include/boost/mpl/aux_/filter_iter.hpp:
 
-/usr/local/include/boost/fusion/adapted/mpl/detail/end_impl.hpp:
+/usr/include/c++/14/x86_64-suse-linux/bits/messages_members.h:
 
 /usr/include/c++/14/bits/stl_pair.h:
 
@@ -2154,23 +2207,35 @@ _deps/catch2-src/src/catch2/internal/catch_xmlwriter.hpp:
 
 _deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.hpp:
 
-_deps/catch2-src/src/catch2/internal/catch_void_type.hpp:
-
 /usr/include/c++/14/tr1/ell_integral.tcc:
 
 /usr/include/c++/14/bits/move.h:
 
-/usr/local/include/boost/spirit/home/support/char_set/range_run.hpp:
-
-/usr/local/include/boost/detail/call_traits.hpp:
-
-/usr/local/include/boost/type_traits/detail/is_function_cxx_11.hpp:
-
-/usr/local/include/boost/fusion/view/joint_view/detail/end_impl.hpp:
-
 _deps/catch2-src/src/catch2/internal/catch_singletons.hpp:
 
+/usr/include/c++/14/bits/memory_resource.h:
+
+/usr/local/include/boost/range/config.hpp:
+
+/usr/local/include/boost/core/addressof.hpp:
+
+/usr/local/include/boost/mpl/eval_if.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/usr/include/c++/14/bits/max_size_type.h:
+
 /usr/include/c++/14/bits/localefwd.h:
+
+/usr/include/c++/14/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/14/bits/locale_facets_nonio.h:
+
+/usr/local/include/boost/static_assert.hpp:
+
+_deps/catch2-src/src/catch2/internal/catch_test_registry.hpp:
+
+/usr/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
 
 /usr/include/c++/14/variant:
 
@@ -2192,15 +2257,7 @@ _deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.hpp:
 
 /usr/local/include/boost/preprocessor/arithmetic/limits/inc_256.hpp:
 
-/usr/local/include/boost/spirit/home/support/char_set/range.hpp:
-
-/usr/include/c++/14/bits/functional_hash.h:
-
-/usr/include/c++/14/bits/random.tcc:
-
-/usr/local/include/boost/fusion/adapted/mpl/detail/at_impl.hpp:
-
-/usr/local/include/boost/mpl/aux_/na_fwd.hpp:
+/usr/include/c++/14/iomanip:
 
 /usr/include/c++/14/bits/exception_ptr.h:
 
@@ -2222,6 +2279,12 @@ _deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.hpp:
 
 /usr/include/bits/stdint-intn.h:
 
+/usr/include/c++/14/x86_64-suse-linux/bits/opt_random.h:
+
+/usr/local/include/boost/spirit/home/x3/support/traits/attribute_type.hpp:
+
+/usr/local/include/boost/mpl/integral_c_fwd.hpp:
+
 /usr/local/include/boost/spirit/home/x3/operator/not_predicate.hpp:
 
 /usr/include/c++/14/bits/char_traits.h:
@@ -2237,6 +2300,8 @@ _deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.hpp:
 /usr/local/include/boost/utility/enable_if.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_lazy_expr.hpp:
+
+/usr/include/c++/14/bits/ranges_util.h:
 
 _deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.hpp:
 
@@ -2272,8 +2337,6 @@ _deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.hpp:
 
 /usr/local/include/boost/mpl/aux_/adl_barrier.hpp:
 
-/usr/local/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
-
 /usr/include/string.h:
 
 /usr/include/c++/14/bits/allocator.h:
@@ -2296,6 +2359,8 @@ _deps/catch2-src/src/catch2/internal/catch_optional.hpp:
 
 /usr/include/bits/xopen_lim.h:
 
+/usr/local/include/boost/fusion/iterator/detail/distance.hpp:
+
 /usr/include/c++/14/bits/unordered_map.h:
 
 _deps/catch2-src/src/catch2/internal/catch_template_test_registry.hpp:
@@ -2312,11 +2377,11 @@ _deps/catch2-src/src/catch2/internal/catch_preprocessor.hpp:
 
 /usr/include/bits/types/struct_timeval.h:
 
+/usr/include/c++/14/bits/chrono_io.h:
+
+_deps/catch2-src/src/catch2/internal/catch_compiler_capabilities.hpp:
+
 /usr/include/c++/14/numeric:
-
-/usr/local/include/boost/core/ref.hpp:
-
-/usr/local/include/boost/preprocessor/iteration/detail/limits/local_256.hpp:
 
 /usr/include/bits/byteswap.h:
 
@@ -2346,19 +2411,25 @@ _deps/catch2-src/src/catch2/internal/catch_move_and_forward.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_logical_traits.hpp:
 
-/usr/local/include/boost/fusion/adapted/mpl/detail/category_of_impl.hpp:
-
-/usr/include/bits/types/__fpos_t.h:
-
 _deps/catch2-src/src/catch2/internal/catch_is_permutation.hpp:
 
+/usr/local/include/boost/fusion/sequence/intrinsic/value_at_key.hpp:
+
+_deps/catch2-src/src/catch2/internal/catch_textflow.hpp:
+
 /usr/local/include/boost/mpl/distance_fwd.hpp:
+
+_deps/catch2-src/src/catch2/internal/catch_source_line_info.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.hpp:
 
 /usr/include/c++/14/cwchar:
 
 /usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/14/bits/unicode-data.h:
+
+_deps/catch2-src/src/catch2/benchmark/detail/catch_estimate_clock.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_debugger.hpp:
 
@@ -2400,14 +2471,6 @@ _deps/catch2-src/src/catch2/internal/catch_preprocessor_remove_parens.hpp:
 
 /usr/local/include/boost/mpl/insert_range.hpp:
 
-_deps/catch2-src/src/catch2/benchmark/detail/catch_estimate_clock.hpp:
-
-/usr/local/include/boost/config/detail/cxx_composite.hpp:
-
-/usr/local/include/boost/mpl/aux_/config/gcc.hpp:
-
-/usr/local/include/boost/preprocessor/seq/for_each_i.hpp:
-
 /usr/include/c++/14/bits/memoryfwd.h:
 
 /usr/include/bits/getopt_core.h:
@@ -2422,9 +2485,9 @@ _deps/catch2-src/src/catch2/interfaces/catch_interfaces_test_invoker.hpp:
 
 /usr/include/c++/14/bits/specfun.h:
 
-_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.hpp:
+/usr/include/c++/14/bits/ranges_uninitialized.h:
 
-/usr/include/bits/errno.h:
+_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.hpp:
 
 /usr/local/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
@@ -2442,9 +2505,11 @@ _deps/catch2-src/src/catch2/matchers/catch_matchers_exception.hpp:
 
 _deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.hpp:
 
-_deps/catch2-src/src/catch2/internal/catch_clara.hpp:
+/usr/local/include/boost/range/functions.hpp:
 
-_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.hpp:
+/usr/include/c++/14/bits/ranges_algobase.h:
+
+_deps/catch2-src/src/catch2/internal/catch_clara.hpp:
 
 /usr/include/c++/14/bits/hash_bytes.h:
 
@@ -2453,8 +2518,6 @@ _deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.hpp:
 _deps/catch2-src/src/catch2/internal/catch_console_colour.hpp:
 
 /usr/local/include/boost/mpl/aux_/common_name_wknd.hpp:
-
-/usr/local/include/boost/preprocessor/repetition/detail/limits/for_256.hpp:
 
 _deps/catch2-src/src/catch2/benchmark/catch_execution_plan.hpp:
 
@@ -2471,6 +2534,10 @@ _deps/catch2-src/src/catch2/internal/catch_section.hpp:
 _deps/catch2-src/src/catch2/internal/catch_assertion_handler.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.hpp:
+
+/usr/local/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp:
+
+_deps/catch2-src/src/catch2/internal/catch_meta.hpp:
 
 /usr/local/include/boost/mpl/push_front.hpp:
 
@@ -2498,25 +2565,11 @@ _deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_stats_fwd.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_istream.hpp:
 
-/usr/local/include/boost/spirit/home/x3/directive/confix.hpp:
-
-/usr/local/include/boost/fusion/adapted/mpl/detail/empty_impl.hpp:
-
-_deps/catch2-src/src/catch2/interfaces/catch_interfaces_all.hpp:
-
-/usr/local/include/boost/fusion/view/iterator_range/detail/begin_impl.hpp:
-
-/usr/local/include/boost/mpl/aux_/preprocessor/repeat.hpp:
-
 /usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/bits/posix_opt.h:
 
 _deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.hpp:
-
-/usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_begin.hpp:
-
-/usr/local/include/boost/core/demangle.hpp:
 
 /usr/include/c++/14/tr1/poly_laguerre.tcc:
 
@@ -2533,10 +2586,6 @@ _deps/catch2-src/src/catch2/benchmark/detail/catch_complete_invoke.hpp:
 /usr/include/bits/types/timer_t.h:
 
 /usr/local/include/boost/mpl/aux_/front_impl.hpp:
-
-/usr/local/include/boost/container_hash/hash_fwd.hpp:
-
-/usr/include/c++/14/x86_64-suse-linux/bits/ctype_inline.h:
 
 /usr/local/include/boost/fusion/view/single_view/detail/deref_impl.hpp:
 
@@ -2558,6 +2607,10 @@ _deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.hpp:
 
 /usr/local/include/boost/config/no_tr1/utility.hpp:
 
+/usr/include/c++/14/bits/locale_conv.h:
+
+_deps/catch2-src/src/catch2/matchers/catch_matchers_contains.hpp:
+
 /usr/local/include/boost/type_traits/is_array.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.hpp:
@@ -2574,7 +2627,13 @@ _deps/catch2-src/src/catch2/internal/catch_test_case_tracker.hpp:
 
 /usr/local/include/boost/fusion/include/size.hpp:
 
+/usr/include/c++/14/bits/ranges_base.h:
+
 _deps/catch2-src/src/catch2/benchmark/catch_clock.hpp:
+
+/usr/include/c++/14/bits/atomic_wait.h:
+
+_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.hpp:
 
 /usr/local/include/boost/spirit/home/x3/directive/lexeme.hpp:
 
@@ -2588,6 +2647,8 @@ _deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.hpp:
 
 /usr/include/c++/14/bits/std_abs.h:
 
+/usr/include/c++/14/numbers:
+
 /usr/include/bits/confname.h:
 
 /usr/local/include/boost/fusion/view/single_view/detail/prior_impl.hpp:
@@ -2596,11 +2657,21 @@ _deps/catch2-src/src/catch2/internal/catch_random_seed_generation.hpp:
 
 _deps/catch2-src/src/catch2/benchmark/detail/catch_timing.hpp:
 
+/usr/include/c++/14/ext/aligned_buffer.h:
+
+/usr/local/include/boost/core/ignore_unused.hpp:
+
+/usr/local/include/boost/fusion/sequence/intrinsic/at.hpp:
+
 /usr/include/c++/14/bits/concept_check.h:
 
 /usr/include/c++/14/bits/align.h:
 
 /usr/include/bits/mathcalls.h:
+
+/usr/local/include/boost/preprocessor/seq/seq.hpp:
+
+parser_helper/include/parser.hpp:
 
 /usr/local/include/boost/range/difference_type.hpp:
 
@@ -2611,8 +2682,6 @@ _deps/catch2-src/src/catch2/benchmark/catch_benchmark_all.hpp:
 /usr/local/include/boost/mpl/aux_/has_apply.hpp:
 
 /usr/local/include/boost/mpl/aux_/integral_wrapper.hpp:
-
-/usr/local/include/boost/preprocessor/seq/limits/enum_256.hpp:
 
 _deps/catch2-src/src/catch2/catch_version_macros.hpp:
 
@@ -2648,6 +2717,8 @@ _deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.hpp:
 
 _deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.hpp:
 
+/usr/include/asm/unistd.h:
+
 /usr/include/c++/14/tuple:
 
 /usr/include/c++/14/ext/type_traits.h:
@@ -2670,10 +2741,6 @@ _deps/catch2-src/src/catch2/benchmark/catch_chronometer.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_compare_traits.hpp:
 
-/usr/local/include/boost/preprocessor/facilities/is_empty_variadic.hpp:
-
-/usr/local/include/boost/fusion/container/list/detail/value_of_impl.hpp:
-
 /usr/local/include/boost/type_traits/make_signed.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.hpp:
@@ -2683,6 +2750,10 @@ _deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.hpp:
 /usr/local/include/boost/range/concepts.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_case_sensitive.hpp:
+
+/usr/local/include/boost/preprocessor/punctuation/paren.hpp:
+
+/usr/include/bits/local_lim.h:
 
 /usr/local/include/boost/variant/detail/substitute_fwd.hpp:
 
@@ -2732,13 +2803,33 @@ _deps/catch2-src/src/catch2/benchmark/catch_optimizer.hpp:
 
 _deps/catch2-src/src/catch2/benchmark/catch_estimate.hpp:
 
+/usr/include/c++/14/bits/streambuf_iterator.h:
+
+/usr/include/stdio.h:
+
+/usr/local/include/boost/mpl/find_if.hpp:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/local/include/boost/spirit/home/x3/auxiliary/any_parser.hpp:
+
+/usr/local/include/boost/fusion/support/detail/access.hpp:
+
+_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.hpp:
+
+/usr/lib64/gcc/x86_64-suse-linux/14/include/stdint.h:
+
+/usr/local/include/boost/mpl/list/aux_/clear.hpp:
+
 /usr/include/c++/14/bits/stl_bvector.h:
+
+/usr/include/c++/14/locale:
 
 /usr/include/c++/14/bits/new_allocator.h:
 
 /usr/include/sched.h:
-
-_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.hpp:
 
 _deps/catch2-src/src/catch2/catch_message.hpp:
 
@@ -2765,6 +2856,8 @@ _deps/catch2-src/src/catch2/internal/catch_parse_numbers.hpp:
 /usr/include/c++/14/debug/assertions.h:
 
 /usr/local/include/boost/preprocessor/detail/is_binary.hpp:
+
+parser_helper/include/variant_decorator.hpp:
 
 /usr/include/errno.h:
 
@@ -2810,6 +2903,16 @@ _deps/catch2-src/src/catch2/interfaces/catch_interfaces_tag_alias_registry.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_run_context.hpp:
 
+parser_helper/include/quoted_string.hpp:
+
+/usr/local/include/boost/config/detail/cxx_composite.hpp:
+
+/usr/include/c++/14/x86_64-suse-linux/bits/ctype_inline.h:
+
+/usr/local/include/boost/container_hash/hash_fwd.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/gcc.hpp:
+
 _deps/catch2-src/src/catch2/generators/catch_generators_adapters.hpp:
 
 /usr/local/include/boost/type_traits/type_identity.hpp:
@@ -2829,12 +2932,6 @@ _deps/catch2-src/src/catch2/generators/catch_generators_all.hpp:
 /usr/local/include/boost/core/enable_if.hpp:
 
 /usr/local/include/boost/preprocessor/facilities/is_empty.hpp:
-
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
-
-/usr/local/include/boost/preprocessor/control/detail/limits/while_256.hpp:
-
-_deps/catch2-src/src/catch2/internal/catch_config_static_analysis_support.hpp:
 
 /usr/include/math.h:
 
@@ -2874,17 +2971,21 @@ _deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.hpp:
 
 /usr/local/include/boost/fusion/iterator/value_of_data.hpp:
 
+/usr/include/bits/waitflags.h:
+
+/usr/local/include/boost/mpl/equal_to.hpp:
+
 /usr/local/include/boost/spirit/home/x3/char.hpp:
 
 /usr/include/bits/flt-eval-method.h:
 
 /usr/local/include/boost/preprocessor/list/detail/fold_left.hpp:
 
-/usr/local/include/boost/static_assert.hpp:
+/usr/include/c++/14/format:
 
-_deps/catch2-src/src/catch2/internal/catch_test_registry.hpp:
+/usr/local/include/boost/variant/detail/make_variant_list.hpp:
 
-/usr/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+/usr/local/include/boost/fusion/container/list/detail/end_impl.hpp:
 
 /usr/include/bits/types/wint_t.h:
 
@@ -2894,13 +2995,19 @@ _deps/catch2-src/src/catch2/internal/catch_test_registry.hpp:
 
 /usr/local/include/boost/mpl/iterator_tags.hpp:
 
-/usr/local/include/boost/preprocessor/seq/for_each.hpp:
-
 /usr/local/include/boost/spirit/home/x3/numeric/int.hpp:
 
 /usr/include/c++/14/x86_64-suse-linux/bits/gthr.h:
 
 _deps/catch2-src/src/catch2/internal/catch_to_string.hpp:
+
+_deps/catch2-src/src/catch2/internal/catch_void_type.hpp:
+
+/usr/local/include/boost/mpl/aux_/na_fwd.hpp:
+
+/usr/include/c++/14/bits/random.tcc:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/at_impl.hpp:
 
 /usr/local/include/boost/fusion/adapted/struct/detail/is_view_impl.hpp:
 
@@ -2914,8 +3021,6 @@ _deps/catch2-src/src/catch2/internal/catch_to_string.hpp:
 
 /usr/local/include/boost/iterator/iterator_traits.hpp:
 
-_deps/catch2-src/src/catch2/matchers/catch_matchers_contains.hpp:
-
 /usr/include/unistd.h:
 
 /usr/include/c++/14/tr1/gamma.tcc:
@@ -2928,7 +3033,27 @@ _deps/catch2-src/src/catch2/matchers/catch_matchers_contains.hpp:
 
 _deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.hpp:
 
+/usr/include/c++/14/charconv:
+
 /usr/include/bits/iscanonical.h:
+
+/usr/include/c++/14/ios:
+
+/usr/include/c++/14/cxxabi.h:
+
+/usr/include/c++/14/system_error:
+
+/usr/local/include/boost/mpl/aux_/lambda_support.hpp:
+
+/usr/local/include/boost/mpl/aux_/iter_push_front.hpp:
+
+/usr/include/bits/syscall.h:
+
+/usr/local/include/boost/variant/detail/variant_io.hpp:
+
+_deps/catch2-src/src/catch2/catch_tag_alias.hpp:
+
+/usr/local/include/boost/mpl/list/list20.hpp:
 
 /usr/include/c++/14/ext/numeric_traits.h:
 
@@ -2949,12 +3074,6 @@ _deps/catch2-src/src/catch2/matchers/catch_matchers_templated.hpp:
 /usr/local/include/boost/fusion/adapted/mpl/detail/value_at_impl.hpp:
 
 /usr/local/include/boost/fusion/view/iterator_range/detail/value_at_impl.hpp:
-
-/usr/local/include/boost/core/no_exceptions_support.hpp:
-
-/usr/local/include/boost/core/launder.hpp:
-
-/usr/include/c++/14/bits/stl_raw_storage_iter.h:
 
 /usr/local/include/boost/mpl/tag.hpp:
 
@@ -3000,6 +3119,14 @@ include/json.hpp:
 
 /usr/include/bits/uintn-identity.h:
 
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/local/include/boost/mpl/prior.hpp:
+
+/usr/include/bits/long-double.h:
+
+/usr/local/include/boost/iterator/distance.hpp:
+
 /usr/include/c++/14/bits/stl_iterator_base_funcs.h:
 
 /usr/local/include/boost/fusion/view/joint_view/detail/key_of_impl.hpp:
@@ -3019,6 +3146,10 @@ _deps/catch2-src/src/catch2/catch_translate_exception.hpp:
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp:
 
 /usr/local/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp:
+
+/usr/include/libintl.h:
+
+/usr/local/include/boost/config/workaround.hpp:
 
 /usr/local/include/boost/mpl/aux_/nested_type_wknd.hpp:
 
@@ -3040,6 +3171,14 @@ _deps/catch2-src/src/catch2/catch_translate_exception.hpp:
 
 /usr/local/include/boost/preprocessor/facilities/identity.hpp:
 
+/usr/include/bits/errno.h:
+
+/usr/local/include/boost/core/launder.hpp:
+
+/usr/include/c++/14/bits/stl_raw_storage_iter.h:
+
+/usr/local/include/boost/core/no_exceptions_support.hpp:
+
 /usr/include/c++/14/cassert:
 
 /usr/include/c++/14/bits/cpp_type_traits.h:
@@ -3048,13 +3187,9 @@ _deps/catch2-src/src/catch2/catch_translate_exception.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.hpp:
 
-/usr/include/bits/long-double.h:
-
-/usr/local/include/boost/iterator/distance.hpp:
-
 /usr/include/bits/uio_lim.h:
 
-/usr/local/include/boost/preprocessor/logical/not.hpp:
+/usr/include/c++/14/x86_64-suse-linux/bits/time_members.h:
 
 /usr/include/bits/math-vector.h:
 
@@ -3074,10 +3209,6 @@ _deps/catch2-src/src/catch2/benchmark/detail/catch_measure.hpp:
 
 /usr/local/include/boost/iterator/reverse_iterator.hpp:
 
-/usr/local/include/boost/config/pragma_message.hpp:
-
-/usr/include/bits/pthreadtypes.h:
-
 /usr/include/bits/select.h:
 
 /usr/include/c++/14/map:
@@ -3085,8 +3216,6 @@ _deps/catch2-src/src/catch2/benchmark/detail/catch_measure.hpp:
 /usr/local/include/boost/fusion/container/deque/detail/build_deque.hpp:
 
 _deps/catch2-src/src/catch2/reporters/catch_reporter_xml.hpp:
-
-_deps/catch2-src/src/catch2/internal/catch_compiler_capabilities.hpp:
 
 /usr/include/asm/errno.h:
 
@@ -3100,19 +3229,13 @@ _deps/catch2-src/src/catch2/internal/catch_compiler_capabilities.hpp:
 
 /usr/include/bits/types/struct_sched_param.h:
 
+/usr/include/asm/unistd_64.h:
+
 _deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.hpp:
 
 /usr/include/c++/14/cstdlib:
 
 /usr/include/bits/stdio_lim.h:
-
-/usr/local/include/boost/spirit/home/x3/auxiliary.hpp:
-
-/usr/local/include/boost/range/detail/extract_optional_type.hpp:
-
-/usr/local/include/boost/core/invoke_swap.hpp:
-
-/usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/bits/stdlib-float.h:
 
@@ -3132,10 +3255,6 @@ _deps/catch2-src/src/catch2/internal/catch_enum_values_registry.hpp:
 
 /usr/include/bits/thread-shared-types.h:
 
-_deps/catch2-src/src/catch2/internal/catch_meta.hpp:
-
-/usr/local/include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp:
-
 /usr/local/include/boost/spirit/home/x3/string/tst.hpp:
 
 /usr/local/include/boost/fusion/adapted/struct/detail/is_sequence_impl.hpp:
@@ -3148,19 +3267,11 @@ _deps/catch2-src/src/catch2/internal/catch_config_counter.hpp:
 
 /usr/include/bits/types/__locale_t.h:
 
-/usr/local/include/boost/functional/hash_fwd.hpp:
-
-/usr/include/c++/14/bits/std_function.h:
-
 /usr/include/c++/14/bits/enable_special_members.h:
 
 /usr/include/bits/types/__sigset_t.h:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
-
-/usr/include/c++/14/bits/streambuf.tcc:
-
-/usr/local/include/boost/config/user.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_test_spec_parser.hpp:
 
@@ -3169,6 +3280,8 @@ _deps/catch2-src/src/catch2/internal/catch_test_spec_parser.hpp:
 /usr/local/include/boost/mpl/aux_/config/has_xxx.hpp:
 
 /usr/include/bits/types/clockid_t.h:
+
+/usr/include/c++/14/bits/codecvt.h:
 
 /usr/include/bits/time.h:
 
@@ -3190,6 +3303,20 @@ _deps/catch2-src/src/catch2/internal/catch_test_macro_impl.hpp:
 
 /usr/local/include/boost/fusion/include/deque_fwd.hpp:
 
+/usr/include/c++/14/tr1/beta_function.tcc:
+
+/usr/include/c++/14/bits/shared_ptr_base.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/local/include/boost/fusion/container/list/detail/deref_impl.hpp:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/c++/14/bits/basic_string.h:
+
+_deps/catch2-src/src/catch2/internal/catch_enforce.hpp:
+
 /usr/local/include/boost/spirit/home/x3/support/traits/move_to.hpp:
 
 /usr/local/include/boost/config/detail/suffix.hpp:
@@ -3208,47 +3335,107 @@ _deps/catch2-src/src/catch2/internal/catch_test_macro_impl.hpp:
 
 /usr/include/bits/unistd_ext.h:
 
-/usr/include/bits/waitflags.h:
+/usr/include/bits/pthreadtypes.h:
 
-/usr/local/include/boost/mpl/equal_to.hpp:
+/usr/local/include/boost/config/pragma_message.hpp:
 
-/usr/include/c++/14/tr1/beta_function.tcc:
+/usr/local/include/boost/fusion/iterator/detail/adapt_deref_traits.hpp:
 
-/usr/include/c++/14/bits/shared_ptr_base.h:
+/usr/local/include/boost/spirit/home/support/char_encoding/standard_wide.hpp:
 
-/usr/include/c++/14/bits/basic_string.h:
+/usr/local/include/boost/config/stdlib/libstdcpp3.hpp:
 
-_deps/catch2-src/src/catch2/internal/catch_enforce.hpp:
+/usr/local/include/boost/fusion/container/map.hpp:
 
-/usr/include/bits/waitstatus.h:
+/usr/local/include/boost/range/iterator_range_core.hpp:
 
-/usr/include/bits/wchar.h:
+/usr/local/include/boost/mpl/aux_/iter_fold_impl.hpp:
 
-/usr/local/include/boost/fusion/container/list/detail/deref_impl.hpp:
+/usr/include/c++/14/bits/streambuf.tcc:
 
-/usr/include/c++/14/bits/streambuf_iterator.h:
+/usr/local/include/boost/config/user.hpp:
 
-/usr/include/stdio.h:
+/usr/include/c++/14/bits/std_mutex.h:
 
-/usr/local/include/boost/mpl/find_if.hpp:
+/usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_begin.hpp:
 
-_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.hpp:
+/usr/local/include/boost/core/demangle.hpp:
 
-/usr/lib64/gcc/x86_64-suse-linux/14/include/stdint.h:
+/usr/local/include/boost/spirit/home/x3/auxiliary.hpp:
 
-/usr/local/include/boost/mpl/list/aux_/clear.hpp:
+/usr/local/include/boost/range/detail/extract_optional_type.hpp:
 
-/usr/local/include/boost/spirit/home/x3/support/subcontext.hpp:
+/usr/local/include/boost/core/invoke_swap.hpp:
 
-/usr/local/include/boost/preprocessor/repetition/enum.hpp:
+/usr/local/include/boost/core/noncopyable.hpp:
 
-/usr/include/bits/posix1_lim.h:
+/usr/local/include/boost/fusion/container/map/detail/map_impl.hpp:
 
-/usr/include/bits/wordsize.h:
+/usr/local/include/boost/preprocessor/iteration/detail/limits/local_256.hpp:
 
-/usr/local/include/boost/spirit/home/x3/auxiliary/any_parser.hpp:
+/usr/local/include/boost/core/ref.hpp:
 
-/usr/local/include/boost/fusion/support/detail/access.hpp:
+/usr/local/include/boost/cstdint.hpp:
+
+/usr/local/include/boost/spirit/home/support/char_set/range_run.hpp:
+
+/usr/local/include/boost/detail/call_traits.hpp:
+
+/usr/local/include/boost/type_traits/detail/is_function_cxx_11.hpp:
+
+/usr/local/include/boost/fusion/view/joint_view/detail/end_impl.hpp:
+
+/usr/local/include/boost/detail/indirect_traits.hpp:
+
+/usr/local/include/boost/detail/reference_content.hpp:
+
+/usr/local/include/boost/preprocessor/control/detail/limits/while_256.hpp:
+
+_deps/catch2-src/src/catch2/internal/catch_config_static_analysis_support.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/usr/local/include/boost/mpl/sequence_tag.hpp:
+
+/usr/local/include/boost/detail/select_type.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
+
+/usr/local/include/boost/detail/templated_streams.hpp:
+
+/usr/local/include/boost/type_traits/is_volatile.hpp:
+
+/usr/local/include/boost/detail/workaround.hpp:
+
+/usr/local/include/boost/exception/exception.hpp:
+
+/usr/include/c++/14/bits/std_function.h:
+
+/usr/local/include/boost/functional/hash_fwd.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/begin_impl.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/category_of_impl.hpp:
+
+/usr/local/include/boost/spirit/home/x3/directive/confix.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/empty_impl.hpp:
+
+_deps/catch2-src/src/catch2/interfaces/catch_interfaces_all.hpp:
+
+/usr/local/include/boost/fusion/view/iterator_range/detail/begin_impl.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessor/repeat.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/end_impl.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/has_key_impl.hpp:
+
+/usr/local/include/boost/fusion/adapted/mpl/detail/is_sequence_impl.hpp:
+
+/usr/local/include/boost/fusion/container/list/detail/value_of_impl.hpp:
+
+/usr/local/include/boost/preprocessor/facilities/is_empty_variadic.hpp:
 
 /usr/local/include/boost/variant/recursive_variant.hpp:
 
@@ -3306,6 +3493,12 @@ _deps/catch2-src/src/catch2/reporters/catch_reporter_multi.hpp:
 
 /usr/local/include/boost/mpl/bool.hpp:
 
+/usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+
+/usr/local/include/boost/preprocessor/punctuation/comma.hpp:
+
+/usr/local/include/boost/mpl/limits/arity.hpp:
+
 /usr/local/include/boost/fusion/adapted/struct/detail/value_of_impl.hpp:
 
 /usr/local/include/boost/fusion/include/advance.hpp:
@@ -3344,17 +3537,7 @@ _deps/catch2-src/src/catch2/reporters/catch_reporter_multi.hpp:
 
 /usr/local/include/boost/fusion/container/deque/detail/convert_impl.hpp:
 
-/usr/local/include/boost/fusion/container/deque/detail/deque_keyed_values.hpp:
-
-/usr/local/include/boost/preprocessor/slot/detail/def.hpp:
-
-/usr/local/include/boost/fusion/view/joint_view/detail/deref_data_impl.hpp:
-
-/usr/local/include/boost/mpl/list/aux_/front.hpp:
-
 /usr/local/include/boost/fusion/container/deque/detail/is_sequence_impl.hpp:
-
-/usr/local/include/boost/preprocessor/logical/compl.hpp:
 
 /usr/local/include/boost/fusion/container/deque/detail/keyed_element.hpp:
 
@@ -3394,21 +3577,9 @@ _deps/catch2-src/src/catch2/reporters/catch_reporter_multi.hpp:
 
 /usr/local/include/boost/fusion/container/list/detail/empty_impl.hpp:
 
-/usr/local/include/boost/variant/detail/make_variant_list.hpp:
-
-/usr/local/include/boost/fusion/container/list/detail/end_impl.hpp:
-
-/usr/local/include/boost/type_traits/is_class.hpp:
-
-/usr/local/include/boost/type_traits/add_rvalue_reference.hpp:
-
-/usr/local/include/boost/preprocessor/seq/fold_left.hpp:
-
 /usr/local/include/boost/fusion/container/list/detail/equal_to_impl.hpp:
 
 /usr/local/include/boost/fusion/container/list/detail/next_impl.hpp:
-
-/usr/local/include/boost/fusion/container/list/detail/value_at_impl.hpp:
 
 /usr/local/include/boost/fusion/container/list/list_fwd.hpp:
 
@@ -3434,9 +3605,9 @@ _deps/catch2-src/src/catch2/reporters/catch_reporter_multi.hpp:
 
 /usr/local/include/boost/spirit/home/x3/operator/detail/sequence.hpp:
 
-/usr/local/include/boost/mpl/numeric_cast.hpp:
-
 /usr/include/bits/floatn-common.h:
+
+/usr/local/include/boost/mpl/numeric_cast.hpp:
 
 /usr/local/include/boost/mpl/aux_/push_front_impl.hpp:
 
@@ -3447,8 +3618,6 @@ _deps/catch2-src/src/catch2/reporters/catch_reporter_multi.hpp:
 /usr/include/c++/14/cstring:
 
 /usr/local/include/boost/fusion/include/is_view.hpp:
-
-/usr/local/include/boost/preprocessor/punctuation/is_begin_parens.hpp:
 
 /usr/local/include/boost/fusion/include/iterator_range.hpp:
 
@@ -3475,8 +3644,6 @@ _deps/catch2-src/src/catch2/internal/catch_noncopyable.hpp:
 /usr/local/include/boost/spirit/home/x3/support/traits/optional_traits.hpp:
 
 /usr/local/include/boost/fusion/iterator/detail/advance.hpp:
-
-/usr/local/include/boost/fusion/iterator/detail/distance.hpp:
 
 /usr/local/include/boost/fusion/iterator/detail/segmented_iterator.hpp:
 
@@ -3521,10 +3688,6 @@ _deps/catch2-src/src/catch2/reporters/catch_reporters_all.hpp:
 /usr/local/include/boost/fusion/sequence/intrinsic/has_key.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/value_at.hpp:
-
-_deps/catch2-src/src/catch2/internal/catch_textflow.hpp:
-
-/usr/local/include/boost/fusion/sequence/intrinsic/value_at_key.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic_fwd.hpp:
 
@@ -3586,10 +3749,6 @@ _deps/catch2-src/src/catch2/catch_template_test_macros.hpp:
 
 /usr/local/include/boost/fusion/support/void.hpp:
 
-/usr/local/include/boost/spirit/home/x3/directive/no_skip.hpp:
-
-/usr/local/include/boost/preprocessor/seq/elem.hpp:
-
 /usr/local/include/boost/fusion/view/iterator_range.hpp:
 
 _deps/catch2-src/src/catch2/internal/catch_unique_name.hpp:
@@ -3634,6 +3793,12 @@ _deps/catch2-src/src/catch2/internal/catch_unique_name.hpp:
 
 /usr/local/include/boost/fusion/view/joint_view/detail/value_of_impl.hpp:
 
+/usr/local/include/boost/preprocessor/facilities/detail/is_empty.hpp:
+
+/usr/local/include/boost/none.hpp:
+
+/usr/local/include/boost/fusion/view/joint_view/joint_view_fwd.hpp:
+
 /usr/local/include/boost/mpl/aux_/lambda_arity_param.hpp:
 
 /usr/local/include/boost/fusion/view/single_view/detail/end_impl.hpp:
@@ -3643,8 +3808,6 @@ _deps/catch2-src/src/catch2/internal/catch_unique_name.hpp:
 /usr/local/include/boost/fusion/view/single_view/detail/equal_to_impl.hpp:
 
 /usr/local/include/boost/mpl/push_back_fwd.hpp:
-
-/usr/local/include/boost/preprocessor/repetition/for.hpp:
 
 _deps/catch2-src/src/catch2/catch_approx.hpp:
 
@@ -3690,15 +3853,9 @@ _deps/catch2-src/src/catch2/catch_approx.hpp:
 
 /usr/local/include/boost/iterator/iterator_facade.hpp:
 
-/usr/local/include/boost/preprocessor/seq/cat.hpp:
-
 /usr/local/include/boost/mpl/O1_size.hpp:
 
 /usr/local/include/boost/mpl/aux_/arity_spec.hpp:
-
-/usr/local/include/boost/type_traits/is_const.hpp:
-
-/usr/local/include/boost/preprocessor/repetition/detail/for.hpp:
 
 /usr/include/bits/timesize.h:
 
@@ -3852,8 +4009,6 @@ _deps/catch2-src/src/catch2/catch_timer.hpp:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp:
 
-tests/parser.hpp:
-
 /usr/local/include/boost/assert.hpp:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp:
@@ -3867,8 +4022,6 @@ tests/parser.hpp:
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp:
 
 /usr/local/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
-
-/usr/local/include/boost/preprocessor/seq/enum.hpp:
 
 /usr/local/include/boost/mpl/aux_/preprocessor/default_params.hpp:
 
@@ -3986,8 +4139,6 @@ _deps/catch2-src/src/catch2/internal/catch_config_wchar.hpp:
 
 /usr/local/include/boost/mpl/iter_fold.hpp:
 
-/usr/local/include/boost/preprocessor/repeat.hpp:
-
 /usr/local/include/boost/mpl/joint_view.hpp:
 
 /usr/local/include/boost/mpl/lambda.hpp:
@@ -4028,12 +4179,6 @@ _deps/catch2-src/src/catch2/internal/catch_result_type.hpp:
 
 /usr/local/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp:
 
-/usr/local/include/boost/variant/detail/variant_io.hpp:
-
-_deps/catch2-src/src/catch2/catch_tag_alias.hpp:
-
-/usr/local/include/boost/mpl/list/list20.hpp:
-
 /usr/local/include/boost/fusion/iterator/detail/segment_sequence.hpp:
 
 /usr/local/include/boost/mpl/long_fwd.hpp:
@@ -4042,17 +4187,11 @@ _deps/catch2-src/src/catch2/catch_tag_alias.hpp:
 
 /usr/local/include/boost/mpl/negate.hpp:
 
+/usr/include/c++/14/bits/iterator_concepts.h:
+
 /usr/local/include/boost/mpl/next_prior.hpp:
 
 /usr/local/include/boost/mpl/placeholders.hpp:
-
-/usr/local/include/boost/mpl/prior.hpp:
-
-/usr/local/include/boost/preprocessor/facilities/detail/is_empty.hpp:
-
-/usr/local/include/boost/fusion/view/joint_view/joint_view_fwd.hpp:
-
-/usr/local/include/boost/none.hpp:
 
 /usr/local/include/boost/mpl/push_back.hpp:
 
@@ -4158,8 +4297,6 @@ _deps/catch2-src/src/catch2/reporters/catch_reporter_automake.hpp:
 
 /usr/local/include/boost/preprocessor/facilities/overload.hpp:
 
-/usr/local/include/boost/preprocessor/logical/bitor.hpp:
-
 /usr/local/include/boost/preprocessor/iteration/detail/local.hpp:
 
 /usr/local/include/boost/fusion/iterator/segmented_iterator.hpp:
@@ -4179,29 +4316,3 @@ _deps/catch2-src/src/catch2/reporters/catch_reporter_automake.hpp:
 /usr/local/include/boost/preprocessor/logical/and.hpp:
 
 /usr/local/include/boost/preprocessor/logical/bitand.hpp:
-
-/usr/local/include/boost/preprocessor/repetition/repeat_from_to.hpp:
-
-/usr/local/include/boost/mpl/limits/arity.hpp:
-
-/usr/local/include/boost/preprocessor/punctuation/comma.hpp:
-
-/usr/local/include/boost/preprocessor/punctuation/comma_if.hpp:
-
-/usr/include/bits/local_lim.h:
-
-/usr/local/include/boost/preprocessor/punctuation/paren.hpp:
-
-/usr/local/include/boost/preprocessor/repetition/enum_binary_params.hpp:
-
-/usr/local/include/boost/preprocessor/repetition/limits/for_256.hpp:
-
-/usr/local/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
-
-/usr/local/include/boost/preprocessor/repetition/repeat.hpp:
-
-/usr/local/include/boost/preprocessor/seq/detail/is_empty.hpp:
-
-/usr/local/include/boost/preprocessor/seq/limits/size_256.hpp:
-
-/usr/local/include/boost/preprocessor/seq/push_front.hpp:

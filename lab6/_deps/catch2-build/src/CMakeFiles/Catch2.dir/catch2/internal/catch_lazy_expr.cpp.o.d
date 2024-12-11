@@ -34,19 +34,23 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp
  /usr/include/c++/14/ext/numeric_traits.h \
  /usr/include/c++/14/bits/stl_pair.h /usr/include/c++/14/type_traits \
  /usr/include/c++/14/bits/version.h /usr/include/c++/14/bits/move.h \
- /usr/include/c++/14/bits/utility.h \
+ /usr/include/c++/14/bits/utility.h /usr/include/c++/14/compare \
+ /usr/include/c++/14/concepts \
  /usr/include/c++/14/bits/stl_iterator_base_types.h \
+ /usr/include/c++/14/bits/iterator_concepts.h \
+ /usr/include/c++/14/bits/ptr_traits.h \
+ /usr/include/c++/14/bits/ranges_cmp.h \
  /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/14/bits/concept_check.h \
  /usr/include/c++/14/debug/assertions.h \
- /usr/include/c++/14/bits/stl_iterator.h \
- /usr/include/c++/14/bits/ptr_traits.h /usr/include/c++/14/debug/debug.h \
- /usr/include/c++/14/bits/predefined_ops.h /usr/include/c++/14/bit \
- /usr/include/c++/14/concepts /usr/include/c++/14/bits/allocator.h \
- /usr/include/c++/14/x86_64-suse-linux/bits/c++allocator.h \
- /usr/include/c++/14/bits/new_allocator.h /usr/include/c++/14/new \
+ /usr/include/c++/14/bits/stl_iterator.h /usr/include/c++/14/new \
  /usr/include/c++/14/bits/exception.h \
  /usr/include/c++/14/bits/stl_construct.h \
+ /usr/include/c++/14/debug/debug.h \
+ /usr/include/c++/14/bits/predefined_ops.h /usr/include/c++/14/bit \
+ /usr/include/c++/14/bits/allocator.h \
+ /usr/include/c++/14/x86_64-suse-linux/bits/c++allocator.h \
+ /usr/include/c++/14/bits/new_allocator.h \
  /usr/include/c++/14/bits/stl_uninitialized.h \
  /usr/include/c++/14/ext/alloc_traits.h \
  /usr/include/c++/14/bits/alloc_traits.h \
@@ -63,6 +67,9 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp
  /usr/include/c++/14/bits/memory_resource.h /usr/include/c++/14/cstddef \
  /usr/include/c++/14/bits/uses_allocator.h \
  /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
+ /usr/include/c++/14/bits/ranges_util.h \
+ /usr/include/c++/14/bits/ranges_base.h \
+ /usr/include/c++/14/bits/max_size_type.h /usr/include/c++/14/numbers \
  /usr/include/c++/14/string /usr/include/c++/14/bits/char_traits.h \
  /usr/include/c++/14/bits/localefwd.h \
  /usr/include/c++/14/x86_64-suse-linux/bits/c++locale.h \
@@ -149,7 +156,35 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/c++/14/chrono \
  /usr/include/c++/14/bits/chrono.h /usr/include/c++/14/limits \
- /usr/include/c++/14/bits/parse_numbers.h \
+ /usr/include/c++/14/bits/parse_numbers.h /usr/include/c++/14/sstream \
+ /usr/include/c++/14/istream /usr/include/c++/14/bits/istream.tcc \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/bits/stl_algo.h \
+ /usr/include/c++/14/bits/algorithmfwd.h \
+ /usr/include/c++/14/bits/stl_heap.h \
+ /usr/include/c++/14/bits/uniform_int_dist.h \
+ /usr/include/c++/14/bits/stl_tempbuf.h \
+ /usr/include/c++/14/bits/shared_ptr.h \
+ /usr/include/c++/14/bits/shared_ptr_base.h \
+ /usr/include/c++/14/bits/allocated_ptr.h \
+ /usr/include/c++/14/bits/unique_ptr.h \
+ /usr/include/c++/14/ext/aligned_buffer.h \
+ /usr/include/c++/14/ext/concurrence.h /usr/include/c++/14/bits/align.h \
+ /usr/include/c++/14/bits/chrono_io.h /usr/include/c++/14/iomanip \
+ /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/locale_facets_nonio.h \
+ /usr/include/c++/14/x86_64-suse-linux/bits/time_members.h \
+ /usr/include/c++/14/x86_64-suse-linux/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14/bits/locale_conv.h \
+ /usr/include/c++/14/bits/quoted_string.h /usr/include/c++/14/format \
+ /usr/include/c++/14/array /usr/include/c++/14/charconv \
+ /usr/include/c++/14/optional \
+ /usr/include/c++/14/bits/enable_special_members.h \
+ /usr/include/c++/14/span /usr/include/c++/14/variant \
+ /usr/include/c++/14/bits/ranges_algobase.h \
+ /usr/include/c++/14/bits/unicode.h \
+ /usr/include/c++/14/bits/unicode-data.h \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
  /home/user/Desktop/cpp_labs/master-programming-task/lab6/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \

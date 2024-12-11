@@ -130,6 +130,19 @@ tests_json_parser/fast:
 .PHONY : tests_json_parser/fast
 
 #=============================================================================
+# Target rules for targets named tests_parser_helper
+
+# Build rule for target.
+tests_parser_helper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests_parser_helper
+.PHONY : tests_parser_helper
+
+# fast build rule for target.
+tests_parser_helper/fast:
+	$(MAKE) $(MAKESILENT) -f parser_helper/CMakeFiles/tests_parser_helper.dir/build.make parser_helper/CMakeFiles/tests_parser_helper.dir/build
+.PHONY : tests_parser_helper/fast
+
+#=============================================================================
 # Target rules for targets named Catch2
 
 # Build rule for target.
@@ -179,30 +192,6 @@ tests/json.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests_json_parser.dir/build.make CMakeFiles/tests_json_parser.dir/tests/json.cpp.s
 .PHONY : tests/json.cpp.s
 
-tests/quoted_string.o: tests/quoted_string.cpp.o
-.PHONY : tests/quoted_string.o
-
-# target to build an object file
-tests/quoted_string.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests_json_parser.dir/build.make CMakeFiles/tests_json_parser.dir/tests/quoted_string.cpp.o
-.PHONY : tests/quoted_string.cpp.o
-
-tests/quoted_string.i: tests/quoted_string.cpp.i
-.PHONY : tests/quoted_string.i
-
-# target to preprocess a source file
-tests/quoted_string.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests_json_parser.dir/build.make CMakeFiles/tests_json_parser.dir/tests/quoted_string.cpp.i
-.PHONY : tests/quoted_string.cpp.i
-
-tests/quoted_string.s: tests/quoted_string.cpp.s
-.PHONY : tests/quoted_string.s
-
-# target to generate assembly for a file
-tests/quoted_string.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests_json_parser.dir/build.make CMakeFiles/tests_json_parser.dir/tests/quoted_string.cpp.s
-.PHONY : tests/quoted_string.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,12 +203,10 @@ help:
 	@echo "... Catch2"
 	@echo "... Catch2WithMain"
 	@echo "... tests_json_parser"
+	@echo "... tests_parser_helper"
 	@echo "... tests/json.o"
 	@echo "... tests/json.i"
 	@echo "... tests/json.s"
-	@echo "... tests/quoted_string.o"
-	@echo "... tests/quoted_string.i"
-	@echo "... tests/quoted_string.s"
 .PHONY : help
 
 

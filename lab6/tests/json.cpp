@@ -9,7 +9,7 @@
 #include <variant>
 
 #include <json.hpp>
-//#include <parser.hpp>
+#include <parser.hpp>
 
 TEST_CASE("json::number")
 {
@@ -45,7 +45,7 @@ TEST_CASE("json::array")
         CHECK(i[0].as<std::string>() == "abc");
         CHECK(i[1].as<std::string>() == "er");
         CHECK(i[2].as<int>() == 123);
-        CHECK(i[3].as<float>() == Approx(-58.2f));
+        CHECK(i[3].as<float>() == Catch::Approx(-58.2f));
         CHECK(i[4].as<nullptr_t>() == nullptr);
         CHECK(i[5].as<bool>() == false);
     }
@@ -61,7 +61,7 @@ TEST_CASE("json::array")
         auto& sub1 = i[1].as<types::json::array>();
         CHECK(sub1[0].as<std::string>() == "some");
         CHECK(sub1[1].as<bool>() == false);
-        CHECK(sub1[2].as<float>() == Approx(-2.5f));
+        CHECK(sub1[2].as<float>() == Catch::Approx(-2.5f));
 
         CHECK(i[2].as<nullptr_t>() == nullptr);
         CHECK(i[3].as<std::string>() == "abc");
@@ -100,35 +100,35 @@ TEST_CASE("json::object")
     }
 }
 
-// TEST_CASE("json::json")
-// {
-//     SECTION("root is object")
-//     {
-//         auto s = R"({"message": "text", "val": 123})";
-//         auto i = parser::load_from_string<types::json::json>(s, parser::json::json);
-//         auto& obj = i.as<types::json::object>();
-//         CHECK(obj["message"].as<std::string>() == "text");
-//         CHECK(obj["val"].as<int>() == 123);
-//     }
-//
-//     SECTION("root is array")
-//     {
-//         auto s = R"(["text", 13, false])";
-//         auto i = parser::load_from_string<types::json::json>(s, parser::json::json);
-//         auto& arr = i.as<types::json::array>();
-//         CHECK(arr[0].as<std::string>() == "text");
-//         CHECK(arr[1].as<int>() == 13);
-//         CHECK(arr[2].as<bool>() == false);
-//     }
-// }
+TEST_CASE("json::json")
+{
+    SECTION("root is object")
+    {
+        auto s = R"({"message": "text", "val": 123})";
+        auto i = parser::load_from_string<types::json::json>(s, parser::json::json);
+        auto& obj = i.as<types::json::object>();
+        CHECK(obj["message"].as<std::string>() == "text");
+        CHECK(obj["val"].as<int>() == 123);
+    }
 
-// TEST_CASE("json::operator_json")
-// {
-//     using namespace literals::json;
-//
-//     auto i = R"({"text": "message", "number": 123})"_json;
-//     const auto& j = i.as<types::json::object>();
-//     //? Why not just ``j["text"]``?
-//     CHECK(j.at("text").as<std::string>() == "message");
-//     CHECK(j.at("number").as<int>() == 123);
-// }
+    SECTION("root is array")
+    {
+        auto s = R"(["text", 13, false])";
+        auto i = parser::load_from_string<types::json::json>(s, parser::json::json);
+        auto& arr = i.as<types::json::array>();
+        CHECK(arr[0].as<std::string>() == "text");
+        CHECK(arr[1].as<int>() == 13);
+        CHECK(arr[2].as<bool>() == false);
+    }
+}
+
+TEST_CASE("json::operator_json")
+{
+    using namespace literals::json;
+
+    auto i = R"({"text": "message", "number": 123})"_json;
+    const auto& j = i.as<types::json::object>();
+    //? Why not just ``j["text"]``?
+    CHECK(j.at("text").as<std::string>() == "message");
+    CHECK(j.at("number").as<int>() == 123);
+}
