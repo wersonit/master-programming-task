@@ -1,0 +1,9 @@
+/home/user/Desktop/cpp_labs/master-programming-task/lab8/CMakeFiles/tests_strided_range.dir
+/home/user/Desktop/cpp_labs/master-programming-task/lab8/CMakeFiles/edit_cache.dir
+/home/user/Desktop/cpp_labs/master-programming-task/lab8/CMakeFiles/rebuild_cache.dir
+/home/user/Desktop/cpp_labs/master-programming-task/lab8/_deps/catch2-build/CMakeFiles/edit_cache.dir
+/home/user/Desktop/cpp_labs/master-programming-task/lab8/_deps/catch2-build/CMakeFiles/rebuild_cache.dir
+/home/user/Desktop/cpp_labs/master-programming-task/lab8/_deps/catch2-build/src/CMakeFiles/Catch2.dir
+/home/user/Desktop/cpp_labs/master-programming-task/lab8/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
+/home/user/Desktop/cpp_labs/master-programming-task/lab8/_deps/catch2-build/src/CMakeFiles/edit_cache.dir
+/home/user/Desktop/cpp_labs/master-programming-task/lab8/_deps/catch2-build/src/CMakeFiles/rebuild_cache.dir
